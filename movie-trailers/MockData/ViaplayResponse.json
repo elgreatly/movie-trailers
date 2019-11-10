@@ -1,0 +1,3917 @@
+{
+    "type": "page",
+    "pageType": "product",
+    "sectionId": "2037b330-d411-11e2-8b8b-0800200c9a66",
+    "title": "Gifted - Film online på Viaplay.se",
+    "description": "Se filmen Gifted med Mckenna Grace, Lindsay Duncan, Octavia Spencer, Jenny Slate på nätet. Se filmer online på Viaplay.se!",
+    "styles": [],
+    "_links": {
+      "curies": [
+        {
+          "name": "viaplay",
+          "href": "http://docs.viaplay.tv/rel/{rel}",
+          "templated": true
+        }
+      ],
+      "self": {
+        "href": "https://content.viaplay.se/pc-se/film/gifted-2017"
+      },
+      "viaplay:root": {
+        "id": "root",
+        "title": "Start",
+        "href": "https://content.viaplay.se/pc-se"
+      },
+      "viaplay:editorial": {
+        "id": "editorial",
+        "href": "https://content.viaplay.se/pc-se/editorial"
+      },
+      "viaplay:socket": {
+        "id": "socket",
+        "href": "https://socket.viaplay.se/"
+      },
+      "viaplay:socket2": {
+        "id": "socket",
+        "href": "https://socket2.viaplay.se/"
+      },
+      "viaplay:search": {
+        "title": "Sök",
+        "href": "https://content.viaplay.se/pc-se/search{?query}",
+        "templated": true
+      },
+      "viaplay:autocomplete": {
+        "title": "autocomplete",
+        "href": "https://content.viaplay.se/pc-se/autocomplete{?query}",
+        "templated": true
+      },
+      "viaplay:byGuid": {
+        "title": "byGuid",
+        "href": "https://content.viaplay.se/pc-se/byguid/{guid}{?returnFirstEpisode,seasonId,tveProgram}",
+        "templated": true
+      },
+      "viaplay:validateSession": {
+        "id": "validateSession",
+        "href": "https://login.viaplay.se/api/validateSession/v1{?session}",
+        "templated": true
+      },
+      "viaplay:translations": {
+        "id": "translations",
+        "href": "https://cms-service.viaplay.se/translations/pc",
+        "templated": false
+      },
+      "viaplay:technotifier": {
+        "id": "technotifier",
+        "href": "https://viaplay.mtg-api.com/tech-notifications/v1/viaplay/sv-se/pc"
+      },
+      "viaplay:sections": [
+        {
+          "id": "35bb8a90-d40e-11e2-8b8b-0800200c9a66",
+          "title": "Serier",
+          "href": "https://content.viaplay.se/pc-se/serier",
+          "type": "vod",
+          "name": "series"
+        },
+        {
+          "id": "2037b330-d411-11e2-8b8b-0800200c9a66",
+          "title": "Film",
+          "href": "https://content.viaplay.se/pc-se/film",
+          "type": "vod",
+          "name": "movie",
+          "active": true
+        },
+        {
+          "id": "8e5febf0-d4e0-11e2-8b8b-0800200c9a66",
+          "title": "Sport",
+          "href": "https://content.viaplay.se/pc-se/sport",
+          "type": "sportPerDay",
+          "name": "sport"
+        },
+        {
+          "id": "1a6a2ec0-d4e2-11e2-8b8b-0800200c9a66",
+          "title": "Barn",
+          "href": "https://content.viaplay.se/pc-se/barn",
+          "type": "children",
+          "name": "kids"
+        },
+        {
+          "id": "85561ec0-d4e1-11e2-8b8b-0800200c9a66",
+          "title": "Hyr & köp",
+          "href": "https://content.viaplay.se/pc-se/store",
+          "type": "vod",
+          "name": "rental"
+        },
+        {
+          "id": "b35d0a33-ec9d-4e4c-9846-92addb9ec00d",
+          "title": "Prova Viaplay",
+          "href": "https://content.viaplay.se/pc-se/package",
+          "type": "editorial",
+          "name": "b35d0a33-ec9d-4e4c-9846-92addb9ec00d"
+        }
+      ],
+      "viaplay:geolocation": {
+        "href": "https://viaplay.mtg-api.com/geolocation/viaplay/portability{?ip,country}"
+      },
+      "viaplay:retrieveUserInformation": {
+        "id": "retrieveUserInformation",
+        "href": "https://viaplay.mtg-api.com/user-information/{brand}/users/{userId}",
+        "method": "GET",
+        "templated": true
+      },
+      "viaplay:login": {
+        "title": "Login",
+        "href": "https://login.viaplay.se/api/login/v1?deviceKey=pc-se&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017{&username,password,persistent,forward}",
+        "templated": true
+      },
+      "viaplay:facebookLogin": {
+        "title": "Facebook Login",
+        "href": "https://login.viaplay.se/api/facebook/login?deviceKey=pc-se&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017{&code,token,persistent}",
+        "templated": true
+      },
+      "viaplay:tokenLogin": {
+        "href": "https://login.viaplay.se/api/tokenLogin?deviceKey=pc-se{&accessToken,refreshToken,persistent,returnurl}",
+        "method": "GET",
+        "templated": true
+      },
+      "viaplay:setParentalControl": {
+        "id": "setParentalControl",
+        "href": "https://viaplay.mtg-api.com/identity/{brand}/users/{userId}/parental-control",
+        "method": "POST",
+        "templated": true
+      },
+      "viaplay:userPwdUpdate": {
+        "id": "userPwdUpdate",
+        "href": "https://viaplay.mtg-api.com/identity/{brand}/users/{userId}/password",
+        "method": "PUT",
+        "templated": true
+      },
+      "viaplay:userPwdLoginRequest": {
+        "id": "userPwdLoginRequest",
+        "href": "https://viaplay.mtg-api.com/identity/{brand}/auth/pwd/sessions",
+        "method": "POST",
+        "templated": true
+      },
+      "viaplay:passwordToken": {
+        "id": "createPasswordToken",
+        "href": "https://viaplay.mtg-api.com/identity/viaplay/emails/{email}/user/password-token",
+        "method": "POST",
+        "templated": true
+      },
+      "viaplay:resetPassword": {
+        "id": "resetPassword",
+        "href": "https://viaplay.mtg-api.com/identity/viaplay/passwords",
+        "method": "PUT"
+      },
+      "viaplay:retrieveUserEmail": {
+        "id": "retrieveUserEmail",
+        "href": "https://viaplay.mtg-api.com/identity/{brand}/reset-pwd-tokens/{+resetPwdToken}/user/email",
+        "method": "GET",
+        "templated": true
+      },
+      "viaplay:universalLinkResolver": {
+        "id": "universalLinkResolver",
+        "href": "https://content.viaplay.se/pc-se/universalLink/{universalLink}",
+        "method": "GET",
+        "templated": true
+      }
+    },
+    "_embedded": {
+      "viaplay:blocks": [
+        {
+          "client": {
+            "module": "movie",
+            "template": "movie"
+          },
+          "totalProductCount": 1,
+          "type": "product",
+          "styles": [
+            "movie-product",
+            "product"
+          ],
+          "_embedded": {
+            "viaplay:product": {
+              "type": "movie",
+              "publicPath": "gifted-2017",
+              "content": {
+                "duration": {
+                  "milliseconds": 5820416,
+                  "readable": "1h 37min"
+                },
+                "images": {
+                  "boxart": {
+                    "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/856/212/1511266199-da149d34ac29aa197c0e845614e1b9faa869d363.jpg?width=199&height=298",
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/856/212/1511266199-da149d34ac29aa197c0e845614e1b9faa869d363.jpg{?width,height}"
+                  },
+                  "landscape": {
+                    "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/856/212/1511266199-e318a9c0e79d45a5129495055a54103f138ca97c.jpg?width=960&height=540",
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/856/212/1511266199-e318a9c0e79d45a5129495055a54103f138ca97c.jpg{?width,height}"
+                  },
+                  "packshot": {
+                    "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/856/212/1511266199-e09aa9f2d190076cebfaf1c34c5048f6ffa95eef.jpg?width=960&height=540",
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/856/212/1511266199-e09aa9f2d190076cebfaf1c34c5048f6ffa95eef.jpg{?width,height}"
+                  },
+                  "hero169": {
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/856/212/1511266199-e318a9c0e79d45a5129495055a54103f138ca97c.jpg{?width,height}"
+                  },
+                  "coverart23": {
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/856/212/1511266199-da149d34ac29aa197c0e845614e1b9faa869d363.jpg{?width,height}"
+                  },
+                  "coverart169": {
+                    "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/856/212/1511266199-e09aa9f2d190076cebfaf1c34c5048f6ffa95eef.jpg{?width,height}"
+                  }
+                },
+                "promoVideos": {
+                  "promoVideo169": {
+                    "href": "https://promo-videos-cdn6-vp.cdn.viaplay.tv/editorial_pages/Promos/20475121_169.mp4"
+                  }
+                },
+                "parentalRating": "12",
+                "people": {
+                  "actors": [
+                    "Mckenna Grace",
+                    "Lindsay Duncan",
+                    "Octavia Spencer",
+                    "Jenny Slate"
+                  ],
+                  "directors": [
+                    "Marc Webb"
+                  ]
+                },
+                "production": {
+                  "country": "USA",
+                  "year": 2017
+                },
+                "imdb": {
+                  "id": "tt4481414",
+                  "rating": "7.6",
+                  "votes": "86 869",
+                  "url": "http://www.imdb.com/title/tt4481414?ref_ext_viaplay"
+                },
+                "synopsis": "I denna fantastiskt gripande film kämpar Frank för att på egen hand kunna ge sin mycket begåvade systerdotter ett normalt liv, men flickans mormor komplicerar tillvaron.",
+                "title": "Gifted"
+              },
+              "user": {
+                "starred": false,
+                "entitled": false,
+                "rented": false
+              },
+              "system": {
+                "availability": {
+                  "start": "2019-09-30T21:59:00.000Z",
+                  "end": "2019-12-31T22:59:00.000Z",
+                  "planInfo": {
+                    "isRental": false,
+                    "isPurchase": false
+                  },
+                  "svod": {
+                    "start": "2019-09-30T21:59:00.000Z",
+                    "end": "2019-12-10T22:59:00.000Z",
+                    "planInfo": {
+                      "isRental": false,
+                      "isPurchase": false
+                    }
+                  },
+                  "tvod": {
+                    "start": "2019-09-30T21:59:00.000Z",
+                    "end": "2019-12-31T22:59:00.000Z",
+                    "planInfo": {
+                      "isRental": true,
+                      "isPurchase": false,
+                      "price": "39",
+                      "mpxProductId": "http://data.product.theplatform.eu/product/data/Product/1574185",
+                      "pricingTemplateId": "http://data.product.theplatform.eu/product/data/PricingTemplate/1217",
+                      "subscriptionPeriodSeconds": 172800
+                    }
+                  },
+                  "est": {
+                    "start": "2019-09-30T21:59:00.000Z",
+                    "end": "2019-12-31T22:59:00.000Z",
+                    "planInfo": {
+                      "isRental": true,
+                      "isPurchase": true,
+                      "price": "129",
+                      "mpxProductId": "http://data.product.theplatform.eu/product/data/Product/1445839",
+                      "pricingTemplateId": "http://data.product.theplatform.eu/product/data/PricingTemplate/665094"
+                    }
+                  }
+                },
+                "flags": [
+                  "hd",
+                  "availableInHd"
+                ],
+                "guid": "20475121",
+                "productKey": "20475121",
+                "isKids": false
+              },
+              "_links": {
+                "self": {
+                  "title": "Gifted",
+                  "href": "https://content.viaplay.se/pc-se/film/gifted-2017?partial=true"
+                },
+                "viaplay:page": {
+                  "title": "Gifted",
+                  "href": "https://content.viaplay.se/pc-se/film/gifted-2017"
+                },
+                "viaplay:templatedPage": {
+                  "title": "Gifted",
+                  "href": "https://content.viaplay.se/{deviceKey}/film/gifted-2017"
+                },
+                "viaplay:genres": [
+                  {
+                    "title": "Drama",
+                    "tagId": "98856440",
+                    "href": "https://content.viaplay.se/pc-se/film/drama"
+                  }
+                ],
+                "viaplay:stream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,availabilityContext,cmaf,cse}&deviceKey=pc-se&guid=20475121&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017%3Fpartial%3Dtrue&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                  "templated": true
+                },
+                "viaplay:templatedStream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey,availabilityContext,cmaf,cse}&guid=20475121&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017%3Fpartial%3Dtrue&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Ffilm%2Fgifted-2017%3Fpartial%3Dtrue&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                  "templated": true
+                },
+                "viaplay:peopleSearch": {
+                  "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                  "templated": true
+                }
+              },
+              "notice": {
+                "message": "User must login to view content",
+                "code": 1002,
+                "_links": {
+                  "curies": [
+                    {
+                      "name": "viaplay",
+                      "href": "http://docs.viaplay.tv/rel/{rel}",
+                      "templated": true
+                    }
+                  ],
+                  "viaplay:accountPurchasePackage": {
+                    "href": "/package?recommended=viaplay",
+                    "templated": false,
+                    "redirect": false
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "ablocator": "a8abed79-78fe-4189-8507-ebba3d6134e7",
+          "id": "a8abed79-78fe-4189-8507-ebba3d6134e7",
+          "type": "list",
+          "client": {
+            "module": "collection",
+            "template": "collection",
+            "styles": "portrait list carousel"
+          },
+          "styles": [
+            "portrait",
+            "list",
+            "carousel"
+          ],
+          "title": "Liknande filmer",
+          "totalProductCount": 14,
+          "currentPage": 1,
+          "pageCount": 1,
+          "productsPerPage": 14,
+          "_embedded": {
+            "viaplay:products": [
+              {
+                "type": "movie",
+                "publicPath": "life-itself-2018",
+                "content": {
+                  "duration": {
+                    "milliseconds": 6741792,
+                    "readable": "1h 52min"
+                  },
+                  "images": {
+                    "boxart": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/653/608/1551863467-0cdd686c1855c5949f1fa53423794cca2c0dee53.jpg?width=199&height=298",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/653/608/1551863467-0cdd686c1855c5949f1fa53423794cca2c0dee53.jpg{?width,height}"
+                    },
+                    "landscape": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/653/608/1551863467-24dbefebd0c0ff9d4d031d689ec6b68b17ccfae0.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/653/608/1551863467-24dbefebd0c0ff9d4d031d689ec6b68b17ccfae0.jpg{?width,height}"
+                    },
+                    "packshot": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/653/608/1551863468-5417315100af1717e6f6838426e1c1985d66e1f4.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/653/608/1551863468-5417315100af1717e6f6838426e1c1985d66e1f4.jpg{?width,height}"
+                    },
+                    "hero169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/653/608/1551863467-24dbefebd0c0ff9d4d031d689ec6b68b17ccfae0.jpg{?width,height}"
+                    },
+                    "coverart23": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/653/608/1551863467-0cdd686c1855c5949f1fa53423794cca2c0dee53.jpg{?width,height}"
+                    },
+                    "coverart169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/653/608/1551863468-5417315100af1717e6f6838426e1c1985d66e1f4.jpg{?width,height}"
+                    }
+                  },
+                  "people": {
+                    "actors": [
+                      "Oscar Isaac",
+                      "Olivia Wilde",
+                      "Annette Bening",
+                      "Mandy Patinkin",
+                      "Jean Smart",
+                      "Olivia Cooke",
+                      "Antonio Banderas"
+                    ],
+                    "directors": [
+                      "Dan Fogelman"
+                    ]
+                  },
+                  "production": {
+                    "country": "USA",
+                    "year": 2018
+                  },
+                  "parentalRating": "15",
+                  "imdb": {
+                    "id": "tt5989218",
+                    "rating": "6.7",
+                    "votes": "11 404",
+                    "url": "http://www.imdb.com/title/tt5989218?ref_ext_viaplay"
+                  },
+                  "synopsis": "Will och Abby möts på universitet, blir kära, gifter sig och skaffar barn. Genom dem följer vi med på en resa som berör flera liv, från New York till Sevilla, fylld av både triumf, tragedi och kärlek.",
+                  "title": "Life Itself"
+                },
+                "user": {
+                  "starred": false,
+                  "entitled": false,
+                  "rented": false
+                },
+                "system": {
+                  "availability": {
+                    "start": "2019-08-19T22:00:00.000Z",
+                    "end": "2030-01-01T00:00:00.000Z",
+                    "planInfo": {
+                      "isRental": false,
+                      "isPurchase": false
+                    },
+                    "svod": {
+                      "start": "2019-08-19T22:00:00.000Z",
+                      "end": "2020-04-30T21:59:00.000Z",
+                      "planInfo": {
+                        "isRental": false,
+                        "isPurchase": false
+                      }
+                    },
+                    "tvod": {
+                      "start": "2019-08-19T22:00:00.000Z",
+                      "end": "2030-01-01T00:00:00.000Z",
+                      "planInfo": {
+                        "isRental": true,
+                        "isPurchase": false,
+                        "price": "49",
+                        "mpxProductId": "http://data.product.theplatform.eu/product/data/Product/1895160",
+                        "pricingTemplateId": "http://data.product.theplatform.eu/product/data/PricingTemplate/1216",
+                        "subscriptionPeriodSeconds": 172800
+                      }
+                    },
+                    "est": {
+                      "start": "2019-08-19T22:00:00.000Z",
+                      "end": "2030-01-01T00:00:00.000Z",
+                      "planInfo": {
+                        "isRental": true,
+                        "isPurchase": true,
+                        "price": "149",
+                        "mpxProductId": "http://data.product.theplatform.eu/product/data/Product/1893919",
+                        "pricingTemplateId": "http://data.product.theplatform.eu/product/data/PricingTemplate/669367"
+                      }
+                    }
+                  },
+                  "flags": [
+                    "hd",
+                    "availableInHd"
+                  ],
+                  "guid": "20528913",
+                  "productKey": "20528913",
+                  "isKids": false
+                },
+                "_links": {
+                  "self": {
+                    "title": "Life Itself",
+                    "href": "https://content.viaplay.se/pc-se/film/life-itself-2018?partial=true"
+                  },
+                  "viaplay:page": {
+                    "title": "Life Itself",
+                    "href": "https://content.viaplay.se/pc-se/film/life-itself-2018"
+                  },
+                  "viaplay:templatedPage": {
+                    "title": "Life Itself",
+                    "href": "https://content.viaplay.se/{deviceKey}/film/life-itself-2018"
+                  },
+                  "viaplay:genres": [
+                    {
+                      "title": "Drama",
+                      "tagId": "98856440",
+                      "href": "https://content.viaplay.se/pc-se/film/drama"
+                    },
+                    {
+                      "title": "Romantik",
+                      "tagId": "99368206",
+                      "href": "https://content.viaplay.se/pc-se/film/romantik"
+                    }
+                  ],
+                  "viaplay:peopleSearch": {
+                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                    "templated": true
+                  },
+                  "viaplay:stream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,availabilityContext,cmaf,cse}&deviceKey=pc-se&guid=20528913&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Flife-itself-2018%3Fpartial%3Dtrue&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                    "templated": true
+                  },
+                  "viaplay:templatedStream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey,availabilityContext,cmaf,cse}&guid=20528913&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Flife-itself-2018%3Fpartial%3Dtrue&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Ffilm%2Flife-itself-2018%3Fpartial%3Dtrue&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                    "templated": true
+                  }
+                },
+                "notice": {
+                  "message": "User must login to view content",
+                  "code": 1002,
+                  "_links": {
+                    "curies": [
+                      {
+                        "name": "viaplay",
+                        "href": "http://docs.viaplay.tv/rel/{rel}",
+                        "templated": true
+                      }
+                    ],
+                    "viaplay:accountPurchasePackage": {
+                      "href": "/package?recommended=viaplay",
+                      "templated": false,
+                      "redirect": false
+                    }
+                  }
+                }
+              },
+              {
+                "type": "movie",
+                "publicPath": "grace-is-gone-2007",
+                "content": {
+                  "duration": {
+                    "milliseconds": 4900992,
+                    "readable": "1h 21min"
+                  },
+                  "images": {
+                    "boxart": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/291/832/1460128124-ef8e0a9048d24a463c9329585939bf42aefa7b5c.jpg?width=199&height=298",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/291/832/1460128124-ef8e0a9048d24a463c9329585939bf42aefa7b5c.jpg{?width,height}"
+                    },
+                    "landscape": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/291/832/1460128123-3bb1b31e16bf978b64db407e129963dbad7383f0.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/291/832/1460128123-3bb1b31e16bf978b64db407e129963dbad7383f0.jpg{?width,height}"
+                    },
+                    "packshot": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/291/832/1460128134-791e0eac0f63bc146ff8b5cd1d38499c91fcb20a.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/291/832/1460128134-791e0eac0f63bc146ff8b5cd1d38499c91fcb20a.jpg{?width,height}"
+                    },
+                    "hero169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/291/832/1460128123-3bb1b31e16bf978b64db407e129963dbad7383f0.jpg{?width,height}"
+                    },
+                    "coverart23": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/291/832/1460128124-ef8e0a9048d24a463c9329585939bf42aefa7b5c.jpg{?width,height}"
+                    },
+                    "coverart169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/291/832/1460128134-791e0eac0f63bc146ff8b5cd1d38499c91fcb20a.jpg{?width,height}"
+                    }
+                  },
+                  "people": {
+                    "actors": [
+                      "John Cusack",
+                      "Marisa Tomei",
+                      "Shélan O'Keefe",
+                      "Emily Churchill",
+                      "Suzanne Lang"
+                    ],
+                    "directors": [
+                      "James C. Strouse"
+                    ]
+                  },
+                  "production": {
+                    "country": "USA",
+                    "year": 2007
+                  },
+                  "parentalRating": "15",
+                  "imdb": {
+                    "id": "tt0772168",
+                    "rating": "6.7",
+                    "votes": "8 850",
+                    "url": "http://www.imdb.com/title/tt0772168?ref_ext_viaplay"
+                  },
+                  "synopsis": "Över 160 000 amerikanska kvinnor har varit stationerade i Irak. Men vad händer när en av dem inte kommer tillbaka? Vad gör änklingen, som inte klarar av att berätta sanningen för sina döttrar?",
+                  "title": "Grace Is Gone"
+                },
+                "user": {
+                  "starred": false
+                },
+                "system": {
+                  "availability": {
+                    "start": "2019-07-21T22:00:00.000Z",
+                    "end": "2020-06-30T21:59:00.000Z",
+                    "planInfo": {
+                      "isRental": false,
+                      "isPurchase": false
+                    },
+                    "svod": {
+                      "start": "2019-07-21T22:00:00.000Z",
+                      "end": "2020-06-30T21:59:00.000Z",
+                      "planInfo": {
+                        "isRental": false,
+                        "isPurchase": false
+                      }
+                    }
+                  },
+                  "flags": [
+                    "hd",
+                    "availableInHd"
+                  ],
+                  "guid": "S48792",
+                  "productKey": "S48792",
+                  "isKids": false
+                },
+                "_links": {
+                  "self": {
+                    "title": "Grace Is Gone",
+                    "href": "https://content.viaplay.se/pc-se/film/grace-is-gone-2007?partial=true"
+                  },
+                  "viaplay:page": {
+                    "title": "Grace Is Gone",
+                    "href": "https://content.viaplay.se/pc-se/film/grace-is-gone-2007"
+                  },
+                  "viaplay:templatedPage": {
+                    "title": "Grace Is Gone",
+                    "href": "https://content.viaplay.se/{deviceKey}/film/grace-is-gone-2007"
+                  },
+                  "viaplay:genres": [
+                    {
+                      "title": "Drama",
+                      "tagId": "98856440",
+                      "href": "https://content.viaplay.se/pc-se/film/drama"
+                    }
+                  ],
+                  "viaplay:peopleSearch": {
+                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                    "templated": true
+                  },
+                  "viaplay:stream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,availabilityContext,cmaf,cse}&deviceKey=pc-se&guid=S48792&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgrace-is-gone-2007%3Fpartial%3Dtrue&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                    "templated": true
+                  },
+                  "viaplay:templatedStream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey,availabilityContext,cmaf,cse}&guid=S48792&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgrace-is-gone-2007%3Fpartial%3Dtrue&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Ffilm%2Fgrace-is-gone-2007%3Fpartial%3Dtrue&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                    "templated": true
+                  }
+                },
+                "notice": {
+                  "message": "User must login to view content",
+                  "code": 1002,
+                  "_links": {
+                    "curies": [
+                      {
+                        "name": "viaplay",
+                        "href": "http://docs.viaplay.tv/rel/{rel}",
+                        "templated": true
+                      }
+                    ],
+                    "viaplay:accountPurchasePackage": {
+                      "href": "/package?recommended=viaplay",
+                      "templated": false,
+                      "redirect": false
+                    }
+                  }
+                }
+              },
+              {
+                "type": "movie",
+                "publicPath": "the-house-that-jack-built-2018",
+                "content": {
+                  "duration": {
+                    "milliseconds": 8764832,
+                    "readable": "2h 26min"
+                  },
+                  "images": {
+                    "boxart": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/163/716/1550571025-38bf208ce7ace2e721d9d849787e100f253caf56.jpg?width=199&height=298",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/163/716/1550571025-38bf208ce7ace2e721d9d849787e100f253caf56.jpg{?width,height}"
+                    },
+                    "landscape": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/163/716/1550571039-b40d96bce1ae0d33a6545d44f345f036cd55fe7d.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/163/716/1550571039-b40d96bce1ae0d33a6545d44f345f036cd55fe7d.jpg{?width,height}"
+                    },
+                    "packshot": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/163/716/1550571026-1f735ad89a9740289e46e4abe9e678c440891713.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/163/716/1550571026-1f735ad89a9740289e46e4abe9e678c440891713.jpg{?width,height}"
+                    },
+                    "hero169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/163/716/1550571039-b40d96bce1ae0d33a6545d44f345f036cd55fe7d.jpg{?width,height}"
+                    },
+                    "coverart23": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/163/716/1550571025-38bf208ce7ace2e721d9d849787e100f253caf56.jpg{?width,height}"
+                    },
+                    "coverart169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/163/716/1550571026-1f735ad89a9740289e46e4abe9e678c440891713.jpg{?width,height}"
+                    }
+                  },
+                  "people": {
+                    "actors": [
+                      "Matt Dillon",
+                      "Uma Thurman",
+                      "Riley Keough",
+                      "Bruno Ganz",
+                      "Sofie Gråbøl",
+                      "Jeremy Davies"
+                    ],
+                    "directors": [
+                      "Lars von Trier"
+                    ]
+                  },
+                  "production": {
+                    "country": "Danmark",
+                    "year": 2018
+                  },
+                  "parentalRating": "18",
+                  "imdb": {
+                    "id": "tt4003440",
+                    "rating": "6.8",
+                    "votes": "43 472",
+                    "url": "http://www.imdb.com/title/tt4003440?ref_ext_viaplay"
+                  },
+                  "synopsis": "Under 12 års tid följer vi seriemördaren Jack, och tar del av de mord som fick honom att gå från misslyckad arkitekt till sann galning.",
+                  "title": "The House That Jack Built"
+                },
+                "user": {
+                  "starred": false,
+                  "entitled": false,
+                  "rented": false
+                },
+                "system": {
+                  "availability": {
+                    "start": "2019-10-16T22:00:00.000Z",
+                    "end": "2030-01-01T00:00:00.000Z",
+                    "planInfo": {
+                      "isRental": false,
+                      "isPurchase": false
+                    },
+                    "svod": {
+                      "start": "2019-10-16T22:00:00.000Z",
+                      "end": "2020-09-28T21:59:00.000Z",
+                      "planInfo": {
+                        "isRental": false,
+                        "isPurchase": false
+                      }
+                    },
+                    "tvod": {
+                      "start": "2019-10-16T22:00:00.000Z",
+                      "end": "2030-01-01T00:00:00.000Z",
+                      "planInfo": {
+                        "isRental": true,
+                        "isPurchase": false,
+                        "price": "49",
+                        "mpxProductId": "http://data.product.theplatform.eu/product/data/Product/2004615",
+                        "pricingTemplateId": "http://data.product.theplatform.eu/product/data/PricingTemplate/1216",
+                        "subscriptionPeriodSeconds": 172800
+                      }
+                    },
+                    "est": {
+                      "start": "2019-10-16T22:00:00.000Z",
+                      "end": "2030-01-01T00:00:00.000Z",
+                      "planInfo": {
+                        "isRental": true,
+                        "isPurchase": true,
+                        "price": "79",
+                        "mpxProductId": "http://data.product.theplatform.eu/product/data/Product/1965049",
+                        "pricingTemplateId": "http://data.product.theplatform.eu/product/data/PricingTemplate/665092"
+                      }
+                    }
+                  },
+                  "flags": [
+                    "hd",
+                    "availableInHd"
+                  ],
+                  "guid": "20534860",
+                  "productKey": "20534860",
+                  "isKids": false
+                },
+                "_links": {
+                  "self": {
+                    "title": "The House That Jack Built",
+                    "href": "https://content.viaplay.se/pc-se/film/the-house-that-jack-built-2018?partial=true"
+                  },
+                  "viaplay:page": {
+                    "title": "The House That Jack Built",
+                    "href": "https://content.viaplay.se/pc-se/film/the-house-that-jack-built-2018"
+                  },
+                  "viaplay:templatedPage": {
+                    "title": "The House That Jack Built",
+                    "href": "https://content.viaplay.se/{deviceKey}/film/the-house-that-jack-built-2018"
+                  },
+                  "viaplay:genres": [
+                    {
+                      "title": "Drama",
+                      "tagId": "98856440",
+                      "href": "https://content.viaplay.se/pc-se/film/drama"
+                    },
+                    {
+                      "title": "Kriminaldrama",
+                      "tagId": "99368197",
+                      "href": "https://content.viaplay.se/pc-se/film/kriminaldrama"
+                    }
+                  ],
+                  "viaplay:peopleSearch": {
+                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                    "templated": true
+                  },
+                  "viaplay:stream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,availabilityContext,cmaf,cse}&deviceKey=pc-se&guid=20534860&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fthe-house-that-jack-built-2018%3Fpartial%3Dtrue&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                    "templated": true
+                  },
+                  "viaplay:templatedStream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey,availabilityContext,cmaf,cse}&guid=20534860&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fthe-house-that-jack-built-2018%3Fpartial%3Dtrue&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Ffilm%2Fthe-house-that-jack-built-2018%3Fpartial%3Dtrue&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                    "templated": true
+                  },
+                  "viaplay:trailerStream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey,availabilityContext,cmaf,cse}&guid=10-5240-4EC2-B0AC-8A87-1269-DE0C-1&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Fbyguid%2F10-5240-4EC2-B0AC-8A87-1269-DE0C-1%3FparentProgramGuid%3D20534860&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Fbyguid%2F10-5240-4EC2-B0AC-8A87-1269-DE0C-1%3FparentProgramGuid%3D20534860&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                    "templated": true
+                  }
+                },
+                "notice": {
+                  "message": "User must login to view content",
+                  "code": 1002,
+                  "_links": {
+                    "curies": [
+                      {
+                        "name": "viaplay",
+                        "href": "http://docs.viaplay.tv/rel/{rel}",
+                        "templated": true
+                      }
+                    ],
+                    "viaplay:accountPurchasePackage": {
+                      "href": "/package?recommended=viaplay",
+                      "templated": false,
+                      "redirect": false
+                    }
+                  }
+                }
+              },
+              {
+                "type": "movie",
+                "publicPath": "creed-ii-2018",
+                "content": {
+                  "duration": {
+                    "milliseconds": 7475136,
+                    "readable": "2h 4min"
+                  },
+                  "images": {
+                    "boxart": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/627/488/1567499199-6e9a3f4d31d93d7ad7332740146622ad19e82c6c.jpg?width=199&height=298",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/627/488/1567499199-6e9a3f4d31d93d7ad7332740146622ad19e82c6c.jpg{?width,height}"
+                    },
+                    "landscape": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/627/488/1567499198-2034a4837adedccd08dacf5855a1a971058028d4.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/627/488/1567499198-2034a4837adedccd08dacf5855a1a971058028d4.jpg{?width,height}"
+                    },
+                    "packshot": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/627/488/1567499199-9e01a4fac843270075e0979964ffe446a6855cbf.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/627/488/1567499199-9e01a4fac843270075e0979964ffe446a6855cbf.jpg{?width,height}"
+                    },
+                    "hero169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/627/488/1567499198-2034a4837adedccd08dacf5855a1a971058028d4.jpg{?width,height}"
+                    },
+                    "coverart23": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/627/488/1567499199-6e9a3f4d31d93d7ad7332740146622ad19e82c6c.jpg{?width,height}"
+                    },
+                    "coverart169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/627/488/1567499199-9e01a4fac843270075e0979964ffe446a6855cbf.jpg{?width,height}"
+                    }
+                  },
+                  "people": {
+                    "actors": [
+                      "Michael B. Jordan",
+                      "Sylvester Stallone",
+                      "Tessa Thompson",
+                      "Dolph Lundgren",
+                      "Florian Munteanu"
+                    ],
+                    "directors": [
+                      "Steven Caple Jr."
+                    ]
+                  },
+                  "production": {
+                    "country": "USA",
+                    "year": 2018
+                  },
+                  "parentalRating": "12",
+                  "imdb": {
+                    "id": "tt6343314",
+                    "rating": "7.2",
+                    "votes": "85 185",
+                    "url": "http://www.imdb.com/title/tt6343314?ref_ext_viaplay"
+                  },
+                  "synopsis": "Tungviktsboxaren Adonis söker hämnd för sin far som dog under en match mot Ivan Drago. Under Rocky Balboas coachning möter han Ivans son i ringen, men ifrågasätter snart vad som är värt att slåss för.",
+                  "title": "Creed II"
+                },
+                "user": {
+                  "starred": false,
+                  "entitled": false,
+                  "rented": false
+                },
+                "system": {
+                  "availability": {
+                    "start": "2019-10-10T22:00:00.000Z",
+                    "end": "2030-01-01T00:00:00.000Z",
+                    "planInfo": {
+                      "isRental": false,
+                      "isPurchase": false
+                    },
+                    "svod": {
+                      "start": "2019-10-10T22:00:00.000Z",
+                      "end": "2020-10-07T21:59:00.000Z",
+                      "planInfo": {
+                        "isRental": false,
+                        "isPurchase": false
+                      }
+                    },
+                    "tvod": {
+                      "start": "2019-10-10T22:00:00.000Z",
+                      "end": "2030-01-01T00:00:00.000Z",
+                      "planInfo": {
+                        "isRental": true,
+                        "isPurchase": false,
+                        "price": "49",
+                        "mpxProductId": "http://data.product.theplatform.eu/product/data/Product/1890236",
+                        "pricingTemplateId": "http://data.product.theplatform.eu/product/data/PricingTemplate/1216",
+                        "subscriptionPeriodSeconds": 172800
+                      }
+                    },
+                    "est": {
+                      "start": "2019-10-10T22:00:00.000Z",
+                      "end": "2030-01-01T00:00:00.000Z",
+                      "planInfo": {
+                        "isRental": true,
+                        "isPurchase": true,
+                        "price": "129",
+                        "mpxProductId": "http://data.product.theplatform.eu/product/data/Product/1888472",
+                        "pricingTemplateId": "http://data.product.theplatform.eu/product/data/PricingTemplate/665094"
+                      }
+                    }
+                  },
+                  "flags": [
+                    "hd",
+                    "availableInHd"
+                  ],
+                  "guid": "20549813",
+                  "productKey": "20549813",
+                  "isKids": false
+                },
+                "_links": {
+                  "self": {
+                    "title": "Creed II",
+                    "href": "https://content.viaplay.se/pc-se/film/creed-ii-2018?partial=true"
+                  },
+                  "viaplay:page": {
+                    "title": "Creed II",
+                    "href": "https://content.viaplay.se/pc-se/film/creed-ii-2018"
+                  },
+                  "viaplay:templatedPage": {
+                    "title": "Creed II",
+                    "href": "https://content.viaplay.se/{deviceKey}/film/creed-ii-2018"
+                  },
+                  "viaplay:genres": [
+                    {
+                      "title": "Drama",
+                      "tagId": "98856440",
+                      "href": "https://content.viaplay.se/pc-se/film/drama"
+                    }
+                  ],
+                  "viaplay:peopleSearch": {
+                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                    "templated": true
+                  },
+                  "viaplay:stream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,availabilityContext,cmaf,cse}&deviceKey=pc-se&guid=20549813&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fcreed-ii-2018%3Fpartial%3Dtrue&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                    "templated": true
+                  },
+                  "viaplay:templatedStream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey,availabilityContext,cmaf,cse}&guid=20549813&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fcreed-ii-2018%3Fpartial%3Dtrue&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Ffilm%2Fcreed-ii-2018%3Fpartial%3Dtrue&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                    "templated": true
+                  }
+                },
+                "notice": {
+                  "message": "User must login to view content",
+                  "code": 1002,
+                  "_links": {
+                    "curies": [
+                      {
+                        "name": "viaplay",
+                        "href": "http://docs.viaplay.tv/rel/{rel}",
+                        "templated": true
+                      }
+                    ],
+                    "viaplay:accountPurchasePackage": {
+                      "href": "/package?recommended=viaplay",
+                      "templated": false,
+                      "redirect": false
+                    }
+                  }
+                }
+              },
+              {
+                "type": "movie",
+                "publicPath": "7-days-in-entebbe-2018",
+                "content": {
+                  "duration": {
+                    "milliseconds": 6121472,
+                    "readable": "1h 42min"
+                  },
+                  "images": {
+                    "boxart": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/952/188/1537344604-a34aad4c549a366c0e6271103346f64ec4ed214c.jpg?width=199&height=298",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/952/188/1537344604-a34aad4c549a366c0e6271103346f64ec4ed214c.jpg{?width,height}"
+                    },
+                    "landscape": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/952/188/1537344615-e421fee4db207aae230555a30e415a6f0c691694.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/952/188/1537344615-e421fee4db207aae230555a30e415a6f0c691694.jpg{?width,height}"
+                    },
+                    "packshot": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/952/188/1537344626-e9e7acec122cf3223f59be872251ecdb302fb70e.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/952/188/1537344626-e9e7acec122cf3223f59be872251ecdb302fb70e.jpg{?width,height}"
+                    },
+                    "hero169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/952/188/1537344615-e421fee4db207aae230555a30e415a6f0c691694.jpg{?width,height}"
+                    },
+                    "coverart23": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/952/188/1537344604-a34aad4c549a366c0e6271103346f64ec4ed214c.jpg{?width,height}"
+                    },
+                    "coverart169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/952/188/1537344626-e9e7acec122cf3223f59be872251ecdb302fb70e.jpg{?width,height}"
+                    }
+                  },
+                  "people": {
+                    "actors": [
+                      "Zina Zinchenko",
+                      "Ben Schnetzer",
+                      "Daniel Brühl",
+                      "Amir Khoury",
+                      "Rosamund Pike"
+                    ],
+                    "directors": [
+                      "José Padilha"
+                    ]
+                  },
+                  "production": {
+                    "country": "USA, Storbritannien",
+                    "year": 2018
+                  },
+                  "parentalRating": "12",
+                  "imdb": {
+                    "id": "tt5466186",
+                    "rating": "5.8",
+                    "votes": "11 323",
+                    "url": "http://www.imdb.com/title/tt5466186?ref_ext_viaplay"
+                  },
+                  "synopsis": "Inspirerat av verkliga händelser. År 1976 kapades ett Air France-plan på väg från Tel Aviv till Paris och en av de mest vågade räddningsaktionerna genom historien sattes i verket.",
+                  "title": "7 Days in Entebbe"
+                },
+                "user": {
+                  "starred": false,
+                  "entitled": false,
+                  "rented": false
+                },
+                "system": {
+                  "availability": {
+                    "start": "2019-02-18T23:00:00.000Z",
+                    "end": "2030-01-01T00:00:00.000Z",
+                    "planInfo": {
+                      "isRental": false,
+                      "isPurchase": false
+                    },
+                    "svod": {
+                      "start": "2019-02-18T23:00:00.000Z",
+                      "end": "2020-01-31T22:59:00.000Z",
+                      "planInfo": {
+                        "isRental": false,
+                        "isPurchase": false
+                      }
+                    },
+                    "tvod": {
+                      "start": "2019-02-18T23:00:00.000Z",
+                      "end": "2030-01-01T00:00:00.000Z",
+                      "planInfo": {
+                        "isRental": true,
+                        "isPurchase": false,
+                        "price": "49",
+                        "mpxProductId": "http://data.product.theplatform.eu/product/data/Product/1740642",
+                        "pricingTemplateId": "http://data.product.theplatform.eu/product/data/PricingTemplate/1216",
+                        "subscriptionPeriodSeconds": 172800
+                      }
+                    },
+                    "est": {
+                      "start": "2019-02-18T23:00:00.000Z",
+                      "end": "2030-01-01T00:00:00.000Z",
+                      "planInfo": {
+                        "isRental": true,
+                        "isPurchase": true,
+                        "price": "79",
+                        "mpxProductId": "http://data.product.theplatform.eu/product/data/Product/1741151",
+                        "pricingTemplateId": "http://data.product.theplatform.eu/product/data/PricingTemplate/665092"
+                      }
+                    }
+                  },
+                  "flags": [
+                    "hd",
+                    "drm",
+                    "availableInHd"
+                  ],
+                  "guid": "20506099",
+                  "productKey": "20506099",
+                  "isKids": false
+                },
+                "_links": {
+                  "self": {
+                    "title": "7 Days in Entebbe",
+                    "href": "https://content.viaplay.se/pc-se/film/7-days-in-entebbe-2018?partial=true"
+                  },
+                  "viaplay:page": {
+                    "title": "7 Days in Entebbe",
+                    "href": "https://content.viaplay.se/pc-se/film/7-days-in-entebbe-2018"
+                  },
+                  "viaplay:templatedPage": {
+                    "title": "7 Days in Entebbe",
+                    "href": "https://content.viaplay.se/{deviceKey}/film/7-days-in-entebbe-2018"
+                  },
+                  "viaplay:genres": [
+                    {
+                      "title": "Drama",
+                      "tagId": "98856440",
+                      "href": "https://content.viaplay.se/pc-se/film/drama"
+                    },
+                    {
+                      "title": "Kriminaldrama",
+                      "tagId": "99368197",
+                      "href": "https://content.viaplay.se/pc-se/film/kriminaldrama"
+                    }
+                  ],
+                  "viaplay:peopleSearch": {
+                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                    "templated": true
+                  },
+                  "viaplay:stream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,availabilityContext,cmaf,cse}&deviceKey=pc-se&guid=20506099&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2F7-days-in-entebbe-2018%3Fpartial%3Dtrue&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                    "templated": true
+                  },
+                  "viaplay:templatedStream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey,availabilityContext,cmaf,cse}&guid=20506099&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2F7-days-in-entebbe-2018%3Fpartial%3Dtrue&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Ffilm%2F7-days-in-entebbe-2018%3Fpartial%3Dtrue&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                    "templated": true
+                  },
+                  "viaplay:trailerStream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey,availabilityContext,cmaf,cse}&guid=10-5240-463B-0761-2A9A-350A-ED64-Z&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Fbyguid%2F10-5240-463B-0761-2A9A-350A-ED64-Z%3FparentProgramGuid%3D20506099&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Fbyguid%2F10-5240-463B-0761-2A9A-350A-ED64-Z%3FparentProgramGuid%3D20506099&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                    "templated": true
+                  }
+                },
+                "notice": {
+                  "message": "User must login to view content",
+                  "code": 1002,
+                  "_links": {
+                    "curies": [
+                      {
+                        "name": "viaplay",
+                        "href": "http://docs.viaplay.tv/rel/{rel}",
+                        "templated": true
+                      }
+                    ],
+                    "viaplay:accountPurchasePackage": {
+                      "href": "/package?recommended=viaplay",
+                      "templated": false,
+                      "redirect": false
+                    }
+                  }
+                }
+              },
+              {
+                "type": "movie",
+                "publicPath": "tracers-2015",
+                "content": {
+                  "duration": {
+                    "milliseconds": 5387168,
+                    "readable": "1h 29min"
+                  },
+                  "images": {
+                    "boxart": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/262/540/1460161191-d23e38f92b550e75de0ef906d01a66484327859d.jpg?width=199&height=298",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/262/540/1460161191-d23e38f92b550e75de0ef906d01a66484327859d.jpg{?width,height}"
+                    },
+                    "landscape": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/262/540/1460161190-33f675cd3da4746a3335b3eb8b5fc89d859ecf41.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/262/540/1460161190-33f675cd3da4746a3335b3eb8b5fc89d859ecf41.jpg{?width,height}"
+                    },
+                    "packshot": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/262/540/1460161190-834e3e93cc91a1b8d2d1dac63473348e50f041eb.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/262/540/1460161190-834e3e93cc91a1b8d2d1dac63473348e50f041eb.jpg{?width,height}"
+                    },
+                    "hero169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/262/540/1460161190-33f675cd3da4746a3335b3eb8b5fc89d859ecf41.jpg{?width,height}"
+                    },
+                    "coverart23": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/262/540/1460161191-d23e38f92b550e75de0ef906d01a66484327859d.jpg{?width,height}"
+                    },
+                    "coverart169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/262/540/1460161190-834e3e93cc91a1b8d2d1dac63473348e50f041eb.jpg{?width,height}"
+                    }
+                  },
+                  "people": {
+                    "actors": [
+                      "Taylor Lautner",
+                      "Marie Avgeropoulos",
+                      "Adam Rayner",
+                      "Rafi Gavron",
+                      "Luciano Acuna Jr."
+                    ],
+                    "directors": [
+                      "Daniel Benmayor"
+                    ]
+                  },
+                  "production": {
+                    "country": "USA",
+                    "year": 2015
+                  },
+                  "parentalRating": "12",
+                  "imdb": {
+                    "id": "tt2401097",
+                    "rating": "5.6",
+                    "votes": "17 563",
+                    "url": "http://www.imdb.com/title/tt2401097?ref_ext_viaplay"
+                  },
+                  "synopsis": "Cam är cykelbud på New Yorks livsfarliga gator. Han klarar allt på två hjul, men en skuld till den lokala maffian får honom att lägga benen på ryggen. Ända tills han av en tillfällighet träffar Nikki.",
+                  "title": "Tracers"
+                },
+                "user": {
+                  "starred": false,
+                  "rented": false
+                },
+                "system": {
+                  "availability": {
+                    "start": "2019-07-25T22:00:00.000Z",
+                    "end": "2024-07-24T00:00:00.000Z",
+                    "planInfo": {
+                      "isRental": false,
+                      "isPurchase": false
+                    },
+                    "svod": {
+                      "start": "2019-07-25T22:00:00.000Z",
+                      "end": "2020-02-25T22:59:00.000Z",
+                      "planInfo": {
+                        "isRental": false,
+                        "isPurchase": false
+                      }
+                    },
+                    "tvod": {
+                      "start": "2019-07-25T22:00:00.000Z",
+                      "end": "2024-07-24T00:00:00.000Z",
+                      "planInfo": {
+                        "isRental": true,
+                        "isPurchase": false,
+                        "price": "49",
+                        "mpxProductId": "http://data.product.theplatform.eu/product/data/Product/458265",
+                        "pricingTemplateId": "http://data.product.theplatform.eu/product/data/PricingTemplate/1216",
+                        "subscriptionPeriodSeconds": 172800
+                      }
+                    }
+                  },
+                  "flags": [
+                    "hd",
+                    "availableInHd"
+                  ],
+                  "guid": "20207178",
+                  "productKey": "20207178",
+                  "isKids": false
+                },
+                "_links": {
+                  "self": {
+                    "title": "Tracers",
+                    "href": "https://content.viaplay.se/pc-se/film/tracers-2015?partial=true"
+                  },
+                  "viaplay:page": {
+                    "title": "Tracers",
+                    "href": "https://content.viaplay.se/pc-se/film/tracers-2015"
+                  },
+                  "viaplay:templatedPage": {
+                    "title": "Tracers",
+                    "href": "https://content.viaplay.se/{deviceKey}/film/tracers-2015"
+                  },
+                  "viaplay:genres": [
+                    {
+                      "title": "Drama",
+                      "tagId": "98856440",
+                      "href": "https://content.viaplay.se/pc-se/film/drama"
+                    },
+                    {
+                      "title": "Kriminaldrama",
+                      "tagId": "99368197",
+                      "href": "https://content.viaplay.se/pc-se/film/kriminaldrama"
+                    }
+                  ],
+                  "viaplay:peopleSearch": {
+                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                    "templated": true
+                  },
+                  "viaplay:stream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,availabilityContext,cmaf,cse}&deviceKey=pc-se&guid=20207178&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftracers-2015%3Fpartial%3Dtrue&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                    "templated": true
+                  },
+                  "viaplay:templatedStream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey,availabilityContext,cmaf,cse}&guid=20207178&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftracers-2015%3Fpartial%3Dtrue&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Ffilm%2Ftracers-2015%3Fpartial%3Dtrue&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                    "templated": true
+                  }
+                },
+                "notice": {
+                  "message": "User must login to view content",
+                  "code": 1002,
+                  "_links": {
+                    "curies": [
+                      {
+                        "name": "viaplay",
+                        "href": "http://docs.viaplay.tv/rel/{rel}",
+                        "templated": true
+                      }
+                    ],
+                    "viaplay:accountPurchasePackage": {
+                      "href": "/package?recommended=viaplay",
+                      "templated": false,
+                      "redirect": false
+                    }
+                  }
+                }
+              },
+              {
+                "type": "movie",
+                "publicPath": "before-we-go-2014",
+                "content": {
+                  "duration": {
+                    "milliseconds": 5476896,
+                    "readable": "1h 31min"
+                  },
+                  "images": {
+                    "boxart": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/579/856/1463660503-0a3dd58b357e96075a8be0819edecafff7f0b90e.jpg?width=199&height=298",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/579/856/1463660503-0a3dd58b357e96075a8be0819edecafff7f0b90e.jpg{?width,height}"
+                    },
+                    "landscape": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/579/856/1463660501-cf8ba70e5eadb6206fa3080c05871fd546434abe.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/579/856/1463660501-cf8ba70e5eadb6206fa3080c05871fd546434abe.jpg{?width,height}"
+                    },
+                    "packshot": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/579/856/1463660501-351dd90fe0d57415ea27610475ce1d897ca52c56.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/579/856/1463660501-351dd90fe0d57415ea27610475ce1d897ca52c56.jpg{?width,height}"
+                    },
+                    "hero169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/579/856/1463660501-cf8ba70e5eadb6206fa3080c05871fd546434abe.jpg{?width,height}"
+                    },
+                    "coverart23": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/579/856/1463660503-0a3dd58b357e96075a8be0819edecafff7f0b90e.jpg{?width,height}"
+                    },
+                    "coverart169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/579/856/1463660501-351dd90fe0d57415ea27610475ce1d897ca52c56.jpg{?width,height}"
+                    }
+                  },
+                  "people": {
+                    "actors": [
+                      "Chris Evans",
+                      "Alice Eve",
+                      "Maria Breyman",
+                      "Emma Fitzpatrick",
+                      "Scott Evans"
+                    ]
+                  },
+                  "production": {
+                    "country": "USA",
+                    "year": 2014
+                  },
+                  "parentalRating": "12",
+                  "imdb": {
+                    "id": "tt0443465",
+                    "rating": "6.8",
+                    "votes": "46 996",
+                    "url": "http://www.imdb.com/title/tt0443465?ref_ext_viaplay"
+                  },
+                  "synopsis": "Vi följer under en natt en man och en kvinna som inte känner varandra och som är fast i New York. En praktisk bekantskap blir till vänskap när  de tvingas konfrontera sina rädslor.",
+                  "title": "Before We Go"
+                },
+                "user": {
+                  "starred": false,
+                  "rented": false
+                },
+                "system": {
+                  "availability": {
+                    "start": "2019-07-25T22:00:00.000Z",
+                    "end": "2030-01-01T00:00:00.000Z",
+                    "planInfo": {
+                      "isRental": false,
+                      "isPurchase": false
+                    },
+                    "svod": {
+                      "start": "2019-07-25T22:00:00.000Z",
+                      "end": "2020-02-25T22:59:00.000Z",
+                      "planInfo": {
+                        "isRental": false,
+                        "isPurchase": false
+                      }
+                    },
+                    "tvod": {
+                      "start": "2019-07-25T22:00:00.000Z",
+                      "end": "2030-01-01T00:00:00.000Z",
+                      "planInfo": {
+                        "isRental": true,
+                        "isPurchase": false,
+                        "price": "49",
+                        "mpxProductId": "http://data.product.theplatform.eu/product/data/Product/587123",
+                        "pricingTemplateId": "http://data.product.theplatform.eu/product/data/PricingTemplate/1216",
+                        "subscriptionPeriodSeconds": 172800
+                      }
+                    }
+                  },
+                  "flags": [
+                    "hd",
+                    "availableInHd"
+                  ],
+                  "guid": "20211925",
+                  "productKey": "20211925",
+                  "isKids": false
+                },
+                "_links": {
+                  "self": {
+                    "title": "Before We Go",
+                    "href": "https://content.viaplay.se/pc-se/film/before-we-go-2014?partial=true"
+                  },
+                  "viaplay:page": {
+                    "title": "Before We Go",
+                    "href": "https://content.viaplay.se/pc-se/film/before-we-go-2014"
+                  },
+                  "viaplay:templatedPage": {
+                    "title": "Before We Go",
+                    "href": "https://content.viaplay.se/{deviceKey}/film/before-we-go-2014"
+                  },
+                  "viaplay:genres": [
+                    {
+                      "title": "Drama",
+                      "tagId": "98856440",
+                      "href": "https://content.viaplay.se/pc-se/film/drama"
+                    },
+                    {
+                      "title": "Romantik",
+                      "tagId": "99368206",
+                      "href": "https://content.viaplay.se/pc-se/film/romantik"
+                    }
+                  ],
+                  "viaplay:peopleSearch": {
+                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                    "templated": true
+                  },
+                  "viaplay:stream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,availabilityContext,cmaf,cse}&deviceKey=pc-se&guid=20211925&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fbefore-we-go-2014%3Fpartial%3Dtrue&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                    "templated": true
+                  },
+                  "viaplay:templatedStream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey,availabilityContext,cmaf,cse}&guid=20211925&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fbefore-we-go-2014%3Fpartial%3Dtrue&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Ffilm%2Fbefore-we-go-2014%3Fpartial%3Dtrue&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                    "templated": true
+                  }
+                },
+                "notice": {
+                  "message": "User must login to view content",
+                  "code": 1002,
+                  "_links": {
+                    "curies": [
+                      {
+                        "name": "viaplay",
+                        "href": "http://docs.viaplay.tv/rel/{rel}",
+                        "templated": true
+                      }
+                    ],
+                    "viaplay:accountPurchasePackage": {
+                      "href": "/package?recommended=viaplay",
+                      "templated": false,
+                      "redirect": false
+                    }
+                  }
+                }
+              },
+              {
+                "type": "movie",
+                "publicPath": "young-black-stallion-2003",
+                "content": {
+                  "duration": {
+                    "milliseconds": 2902080,
+                    "readable": "48min"
+                  },
+                  "images": {
+                    "boxart": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/293/284/1496307569-d2e63188a1d00747be464242d235ac7897132b6c.jpg?width=199&height=298&template=disney",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/293/284/1496307569-d2e63188a1d00747be464242d235ac7897132b6c.jpg{?width,height}&template=disney"
+                    },
+                    "landscape": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/293/784/1496307569-89f2f8139eea46835197f2a1fb6a7ef5ae35778c.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/293/784/1496307569-89f2f8139eea46835197f2a1fb6a7ef5ae35778c.jpg{?width,height}"
+                    },
+                    "packshot": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/293/784/1496307569-0097ae227c476ba8af4ed01a82d8dd42e8d5a549.jpg?width=960&height=540&template=disney",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/293/784/1496307569-0097ae227c476ba8af4ed01a82d8dd42e8d5a549.jpg{?width,height}&template=disney"
+                    },
+                    "hero169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/293/784/1496307569-89f2f8139eea46835197f2a1fb6a7ef5ae35778c.jpg{?width,height}"
+                    },
+                    "coverart23": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/293/284/1496307569-d2e63188a1d00747be464242d235ac7897132b6c.jpg{?width,height}&template=disney"
+                    },
+                    "coverart169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/293/784/1496307569-0097ae227c476ba8af4ed01a82d8dd42e8d5a549.jpg{?width,height}&template=disney"
+                    }
+                  },
+                  "originalTitle": "The Young Black Stallion",
+                  "people": {
+                    "actors": [
+                      "Richard Romanus",
+                      "Biana Tamimi",
+                      "Patrick Elyas",
+                      "Gérard Rudolf",
+                      "Ali Al Ameri"
+                    ],
+                    "directors": [
+                      "Simon Wincer"
+                    ]
+                  },
+                  "production": {
+                    "country": "USA",
+                    "year": 2003
+                  },
+                  "parentalRating": "U",
+                  "imdb": {
+                    "id": "tt0318850",
+                    "rating": "5.6",
+                    "votes": "984",
+                    "url": "http://www.imdb.com/title/tt0318850?ref_ext_viaplay"
+                  },
+                  "synopsis": "Neera är en ung flicka som på grund av andra världskriget blivit sepererad från sin far i mellanöstern. Helt själv i öknen blir hon vän med en vild unghäst som hon döper till Shetan.",
+                  "title": "Young Black Stallion"
+                },
+                "user": {
+                  "starred": false
+                },
+                "system": {
+                  "availability": {
+                    "start": "2019-07-25T22:00:00.000Z",
+                    "end": "2019-12-31T22:59:00.000Z",
+                    "planInfo": {
+                      "isRental": false,
+                      "isPurchase": false
+                    },
+                    "svod": {
+                      "start": "2019-07-25T22:00:00.000Z",
+                      "end": "2019-12-31T22:59:00.000Z",
+                      "planInfo": {
+                        "isRental": false,
+                        "isPurchase": false
+                      }
+                    }
+                  },
+                  "flags": [
+                    "hd",
+                    "availableInHd"
+                  ],
+                  "guid": "S47086",
+                  "productKey": "S47086",
+                  "isKids": false
+                },
+                "_links": {
+                  "self": {
+                    "title": "Young Black Stallion",
+                    "href": "https://content.viaplay.se/pc-se/film/young-black-stallion-2003?partial=true"
+                  },
+                  "viaplay:page": {
+                    "title": "Young Black Stallion",
+                    "href": "https://content.viaplay.se/pc-se/film/young-black-stallion-2003"
+                  },
+                  "viaplay:templatedPage": {
+                    "title": "Young Black Stallion",
+                    "href": "https://content.viaplay.se/{deviceKey}/film/young-black-stallion-2003"
+                  },
+                  "viaplay:genres": [
+                    {
+                      "title": "Drama",
+                      "tagId": "98856440",
+                      "href": "https://content.viaplay.se/pc-se/film/drama"
+                    },
+                    {
+                      "title": "Familjefilm",
+                      "tagId": "99879975",
+                      "href": "https://content.viaplay.se/pc-se/film/familjefilm"
+                    }
+                  ],
+                  "viaplay:peopleSearch": {
+                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                    "templated": true
+                  },
+                  "viaplay:stream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,availabilityContext,cmaf,cse}&deviceKey=pc-se&guid=S47086&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fyoung-black-stallion-2003%3Fpartial%3Dtrue&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                    "templated": true
+                  },
+                  "viaplay:templatedStream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey,availabilityContext,cmaf,cse}&guid=S47086&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fyoung-black-stallion-2003%3Fpartial%3Dtrue&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Ffilm%2Fyoung-black-stallion-2003%3Fpartial%3Dtrue&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                    "templated": true
+                  }
+                },
+                "notice": {
+                  "message": "User must login to view content",
+                  "code": 1002,
+                  "_links": {
+                    "curies": [
+                      {
+                        "name": "viaplay",
+                        "href": "http://docs.viaplay.tv/rel/{rel}",
+                        "templated": true
+                      }
+                    ],
+                    "viaplay:accountPurchasePackage": {
+                      "href": "/package?recommended=viaplay",
+                      "templated": false,
+                      "redirect": false
+                    }
+                  }
+                }
+              },
+              {
+                "type": "movie",
+                "publicPath": "spy-game-2001",
+                "content": {
+                  "duration": {
+                    "milliseconds": 7277056,
+                    "readable": "2h 1min"
+                  },
+                  "images": {
+                    "boxart": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/847/400/1460120040-6a04fad7aa9fe5f99b6b8c0249bea4be9937e04e.jpg?width=199&height=298",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/847/400/1460120040-6a04fad7aa9fe5f99b6b8c0249bea4be9937e04e.jpg{?width,height}"
+                    },
+                    "landscape": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/847/400/1460120040-dc377761cb35d1877251b605a794aabfab988f81.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/847/400/1460120040-dc377761cb35d1877251b605a794aabfab988f81.jpg{?width,height}"
+                    },
+                    "packshot": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/847/400/1460120040-0afeb5dd69d969f20ffd805c99fa7dd77a1c896d.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/847/400/1460120040-0afeb5dd69d969f20ffd805c99fa7dd77a1c896d.jpg{?width,height}"
+                    },
+                    "hero169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/847/400/1460120040-dc377761cb35d1877251b605a794aabfab988f81.jpg{?width,height}"
+                    },
+                    "coverart23": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/847/400/1460120040-6a04fad7aa9fe5f99b6b8c0249bea4be9937e04e.jpg{?width,height}"
+                    },
+                    "coverart169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/847/400/1460120040-0afeb5dd69d969f20ffd805c99fa7dd77a1c896d.jpg{?width,height}"
+                    }
+                  },
+                  "people": {
+                    "actors": [
+                      "Robert Redford",
+                      "Brad Pitt",
+                      "Catherine McCormack",
+                      "Stephen Dillane",
+                      "Larry Bryggman"
+                    ],
+                    "directors": [
+                      "Tony Scott"
+                    ]
+                  },
+                  "production": {
+                    "country": "Tyskland, USA",
+                    "year": 2001
+                  },
+                  "parentalRating": "15",
+                  "imdb": {
+                    "id": "tt0266987",
+                    "rating": "7.1",
+                    "votes": "137 721",
+                    "url": "http://www.imdb.com/title/tt0266987?ref_ext_viaplay"
+                  },
+                  "synopsis": "När en topphemlig operation misslyckas blir CIA-agenten Bishop tillfångatagen och han döms till döden. Bishops chef, Nathan Muir, har nu bara 24 timmar på sig att rädda honom.",
+                  "title": "Spy Game"
+                },
+                "user": {
+                  "starred": false
+                },
+                "system": {
+                  "availability": {
+                    "start": "2019-05-27T22:00:00.000Z",
+                    "end": "2020-04-30T21:59:00.000Z",
+                    "planInfo": {
+                      "isRental": false,
+                      "isPurchase": false
+                    },
+                    "svod": {
+                      "start": "2019-05-27T22:00:00.000Z",
+                      "end": "2020-04-30T21:59:00.000Z",
+                      "planInfo": {
+                        "isRental": false,
+                        "isPurchase": false
+                      }
+                    }
+                  },
+                  "flags": [
+                    "hd",
+                    "availableInHd"
+                  ],
+                  "guid": "20326959",
+                  "productKey": "20326959",
+                  "isKids": false
+                },
+                "_links": {
+                  "self": {
+                    "title": "Spy Game",
+                    "href": "https://content.viaplay.se/pc-se/film/spy-game-2001?partial=true"
+                  },
+                  "viaplay:page": {
+                    "title": "Spy Game",
+                    "href": "https://content.viaplay.se/pc-se/film/spy-game-2001"
+                  },
+                  "viaplay:templatedPage": {
+                    "title": "Spy Game",
+                    "href": "https://content.viaplay.se/{deviceKey}/film/spy-game-2001"
+                  },
+                  "viaplay:genres": [
+                    {
+                      "title": "Drama",
+                      "tagId": "98856440",
+                      "href": "https://content.viaplay.se/pc-se/film/drama"
+                    },
+                    {
+                      "title": "Thriller",
+                      "tagId": "99368200",
+                      "href": "https://content.viaplay.se/pc-se/film/thriller"
+                    }
+                  ],
+                  "viaplay:peopleSearch": {
+                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                    "templated": true
+                  },
+                  "viaplay:stream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,availabilityContext,cmaf,cse}&deviceKey=pc-se&guid=20326959&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fspy-game-2001%3Fpartial%3Dtrue&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                    "templated": true
+                  },
+                  "viaplay:templatedStream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey,availabilityContext,cmaf,cse}&guid=20326959&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fspy-game-2001%3Fpartial%3Dtrue&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Ffilm%2Fspy-game-2001%3Fpartial%3Dtrue&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                    "templated": true
+                  }
+                },
+                "notice": {
+                  "message": "User must login to view content",
+                  "code": 1002,
+                  "_links": {
+                    "curies": [
+                      {
+                        "name": "viaplay",
+                        "href": "http://docs.viaplay.tv/rel/{rel}",
+                        "templated": true
+                      }
+                    ],
+                    "viaplay:accountPurchasePackage": {
+                      "href": "/package?recommended=viaplay",
+                      "templated": false,
+                      "redirect": false
+                    }
+                  }
+                }
+              },
+              {
+                "type": "movie",
+                "publicPath": "twilight-2008",
+                "content": {
+                  "duration": {
+                    "milliseconds": 7009024,
+                    "readable": "1h 56min"
+                  },
+                  "images": {
+                    "boxart": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/17/792/1460119286-23be4c50cb49a7b5d976e2555a4f30e0512a2599.jpg?width=199&height=298",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/17/792/1460119286-23be4c50cb49a7b5d976e2555a4f30e0512a2599.jpg{?width,height}"
+                    },
+                    "landscape": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/17/792/1460119286-8f8f72679b9ec46463b9a1d21d1d621cfab1a44c.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/17/792/1460119286-8f8f72679b9ec46463b9a1d21d1d621cfab1a44c.jpg{?width,height}"
+                    },
+                    "packshot": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/17/792/1460119286-c62be73a01fc04580335119017eb4cc8e48da513.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/17/792/1460119286-c62be73a01fc04580335119017eb4cc8e48da513.jpg{?width,height}"
+                    },
+                    "hero169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/17/792/1460119286-8f8f72679b9ec46463b9a1d21d1d621cfab1a44c.jpg{?width,height}"
+                    },
+                    "coverart23": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/17/792/1460119286-23be4c50cb49a7b5d976e2555a4f30e0512a2599.jpg{?width,height}"
+                    },
+                    "coverart169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/17/792/1460119286-c62be73a01fc04580335119017eb4cc8e48da513.jpg{?width,height}"
+                    }
+                  },
+                  "language": {
+                    "subtitles": [
+                      {
+                        "languageCode": "fi"
+                      },
+                      {
+                        "languageCode": "sv"
+                      },
+                      {
+                        "languageCode": "da"
+                      },
+                      {
+                        "languageCode": "no"
+                      }
+                    ]
+                  },
+                  "people": {
+                    "actors": [
+                      "Nikki Reed",
+                      "Taylor Lautner",
+                      "Michael Welch",
+                      "Robert Pattinson",
+                      "Billy Burke",
+                      "Ashley Greene"
+                    ]
+                  },
+                  "production": {
+                    "country": "USA",
+                    "year": 2008
+                  },
+                  "parentalRating": "12",
+                  "imdb": {
+                    "id": "tt1099212",
+                    "rating": "5.2",
+                    "votes": "401 142",
+                    "url": "http://www.imdb.com/title/tt1099212?ref_ext_viaplay"
+                  },
+                  "synopsis": "Isabella Swan flyttar till Forks, en liten regnig sovstad i Washington, Hon förväntar sig att hennes nya liv ska bli långtråkigt. Men sen träffar hon den gåtfulla och förföriska Edward Cullen.",
+                  "title": "Twilight"
+                },
+                "user": {
+                  "starred": false
+                },
+                "system": {
+                  "availability": {
+                    "start": "2019-07-25T22:00:00.000Z",
+                    "end": "2020-02-25T22:59:00.000Z",
+                    "planInfo": {
+                      "isRental": false,
+                      "isPurchase": false
+                    },
+                    "svod": {
+                      "start": "2019-07-25T22:00:00.000Z",
+                      "end": "2020-02-25T22:59:00.000Z",
+                      "planInfo": {
+                        "isRental": false,
+                        "isPurchase": false
+                      }
+                    }
+                  },
+                  "flags": [
+                    "hd",
+                    "availableInHd"
+                  ],
+                  "guid": "S09509",
+                  "productKey": "S09509",
+                  "isKids": false
+                },
+                "_links": {
+                  "self": {
+                    "title": "Twilight",
+                    "href": "https://content.viaplay.se/pc-se/film/twilight-2008?partial=true"
+                  },
+                  "viaplay:page": {
+                    "title": "Twilight",
+                    "href": "https://content.viaplay.se/pc-se/film/twilight-2008"
+                  },
+                  "viaplay:templatedPage": {
+                    "title": "Twilight",
+                    "href": "https://content.viaplay.se/{deviceKey}/film/twilight-2008"
+                  },
+                  "viaplay:genres": [
+                    {
+                      "title": "Drama",
+                      "tagId": "98856440",
+                      "href": "https://content.viaplay.se/pc-se/film/drama"
+                    },
+                    {
+                      "title": "Romantik",
+                      "tagId": "99368206",
+                      "href": "https://content.viaplay.se/pc-se/film/romantik"
+                    }
+                  ],
+                  "viaplay:peopleSearch": {
+                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                    "templated": true
+                  },
+                  "viaplay:stream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,availabilityContext,cmaf,cse}&deviceKey=pc-se&guid=S09509&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftwilight-2008%3Fpartial%3Dtrue&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                    "templated": true
+                  },
+                  "viaplay:templatedStream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey,availabilityContext,cmaf,cse}&guid=S09509&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftwilight-2008%3Fpartial%3Dtrue&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Ffilm%2Ftwilight-2008%3Fpartial%3Dtrue&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                    "templated": true
+                  }
+                },
+                "notice": {
+                  "message": "User must login to view content",
+                  "code": 1002,
+                  "_links": {
+                    "curies": [
+                      {
+                        "name": "viaplay",
+                        "href": "http://docs.viaplay.tv/rel/{rel}",
+                        "templated": true
+                      }
+                    ],
+                    "viaplay:accountPurchasePackage": {
+                      "href": "/package?recommended=viaplay",
+                      "templated": false,
+                      "redirect": false
+                    }
+                  }
+                }
+              },
+              {
+                "type": "movie",
+                "publicPath": "table-19-2017",
+                "content": {
+                  "duration": {
+                    "milliseconds": 5018016,
+                    "readable": "1h 23min"
+                  },
+                  "images": {
+                    "boxart": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/875/756/1511276405-d14442760afebf5736f0435bd7a3be1d1512fc14.jpg?width=199&height=298",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/875/756/1511276405-d14442760afebf5736f0435bd7a3be1d1512fc14.jpg{?width,height}"
+                    },
+                    "landscape": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/875/756/1511276404-a4ccf880ee92c72b67217e6dc9b330c13e98fd32.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/875/756/1511276404-a4ccf880ee92c72b67217e6dc9b330c13e98fd32.jpg{?width,height}"
+                    },
+                    "packshot": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/875/756/1511276405-52dd5eeb1a88a5299a448fe6904b9d8f5d024473.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/875/756/1511276405-52dd5eeb1a88a5299a448fe6904b9d8f5d024473.jpg{?width,height}"
+                    },
+                    "hero169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/875/756/1511276404-a4ccf880ee92c72b67217e6dc9b330c13e98fd32.jpg{?width,height}"
+                    },
+                    "coverart23": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/875/756/1511276405-d14442760afebf5736f0435bd7a3be1d1512fc14.jpg{?width,height}"
+                    },
+                    "coverart169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/875/756/1511276405-52dd5eeb1a88a5299a448fe6904b9d8f5d024473.jpg{?width,height}"
+                    }
+                  },
+                  "people": {
+                    "actors": [
+                      "Anna Kendrick",
+                      "Nicole Kidman",
+                      "Charles Green",
+                      "Lisa Kudrow",
+                      "Craig Robinson"
+                    ],
+                    "directors": [
+                      "Nicole Kidman",
+                      "Jeffrey Blitz"
+                    ]
+                  },
+                  "production": {
+                    "country": "USA",
+                    "year": 2017
+                  },
+                  "parentalRating": "12",
+                  "imdb": {
+                    "id": "tt1412528",
+                    "rating": "5.8",
+                    "votes": "23 773",
+                    "url": "http://www.imdb.com/title/tt1412528?ref_ext_viaplay"
+                  },
+                  "synopsis": "Efter att ha blivit utbytt som brudtärna bestämmer sig Eloise för att gå till sin väns bröllop ändå. Hon hittar nya vänner hos de utstötta främlingarna som sitter vid det fruktade bord 19.",
+                  "title": "Table 19"
+                },
+                "user": {
+                  "starred": false,
+                  "entitled": false,
+                  "rented": false
+                },
+                "system": {
+                  "availability": {
+                    "start": "2019-09-30T21:59:00.000Z",
+                    "end": "2019-12-31T22:59:00.000Z",
+                    "planInfo": {
+                      "isRental": false,
+                      "isPurchase": false
+                    },
+                    "svod": {
+                      "start": "2019-09-30T21:59:00.000Z",
+                      "end": "2019-12-17T22:59:00.000Z",
+                      "planInfo": {
+                        "isRental": false,
+                        "isPurchase": false
+                      }
+                    },
+                    "tvod": {
+                      "start": "2019-09-30T21:59:00.000Z",
+                      "end": "2019-12-31T22:59:00.000Z",
+                      "planInfo": {
+                        "isRental": true,
+                        "isPurchase": false,
+                        "price": "39",
+                        "mpxProductId": "http://data.product.theplatform.eu/product/data/Product/1957587",
+                        "pricingTemplateId": "http://data.product.theplatform.eu/product/data/PricingTemplate/1217",
+                        "subscriptionPeriodSeconds": 172800
+                      }
+                    },
+                    "est": {
+                      "start": "2019-09-30T21:59:00.000Z",
+                      "end": "2019-12-31T22:59:00.000Z",
+                      "planInfo": {
+                        "isRental": true,
+                        "isPurchase": true,
+                        "price": "129",
+                        "mpxProductId": "http://data.product.theplatform.eu/product/data/Product/1448129",
+                        "pricingTemplateId": "http://data.product.theplatform.eu/product/data/PricingTemplate/665094"
+                      }
+                    }
+                  },
+                  "flags": [
+                    "hd",
+                    "availableInHd"
+                  ],
+                  "guid": "20475130",
+                  "productKey": "20475130",
+                  "isKids": false
+                },
+                "_links": {
+                  "self": {
+                    "title": "Table 19",
+                    "href": "https://content.viaplay.se/pc-se/film/table-19-2017?partial=true"
+                  },
+                  "viaplay:page": {
+                    "title": "Table 19",
+                    "href": "https://content.viaplay.se/pc-se/film/table-19-2017"
+                  },
+                  "viaplay:templatedPage": {
+                    "title": "Table 19",
+                    "href": "https://content.viaplay.se/{deviceKey}/film/table-19-2017"
+                  },
+                  "viaplay:genres": [
+                    {
+                      "title": "Drama",
+                      "tagId": "98856440",
+                      "href": "https://content.viaplay.se/pc-se/film/drama"
+                    },
+                    {
+                      "title": "Komedi",
+                      "tagId": "99368193",
+                      "href": "https://content.viaplay.se/pc-se/film/komedi"
+                    }
+                  ],
+                  "viaplay:peopleSearch": {
+                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                    "templated": true
+                  },
+                  "viaplay:stream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,availabilityContext,cmaf,cse}&deviceKey=pc-se&guid=20475130&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftable-19-2017%3Fpartial%3Dtrue&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                    "templated": true
+                  },
+                  "viaplay:templatedStream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey,availabilityContext,cmaf,cse}&guid=20475130&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftable-19-2017%3Fpartial%3Dtrue&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Ffilm%2Ftable-19-2017%3Fpartial%3Dtrue&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                    "templated": true
+                  }
+                },
+                "notice": {
+                  "message": "User must login to view content",
+                  "code": 1002,
+                  "_links": {
+                    "curies": [
+                      {
+                        "name": "viaplay",
+                        "href": "http://docs.viaplay.tv/rel/{rel}",
+                        "templated": true
+                      }
+                    ],
+                    "viaplay:accountPurchasePackage": {
+                      "href": "/package?recommended=viaplay",
+                      "templated": false,
+                      "redirect": false
+                    }
+                  }
+                }
+              },
+              {
+                "type": "movie",
+                "publicPath": "en-dag-i-livet-2005",
+                "content": {
+                  "duration": {
+                    "milliseconds": 6197056,
+                    "readable": "1h 43min"
+                  },
+                  "images": {
+                    "boxart": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/635/316/1560946675-4c2ab8fa7da06becec1a48462887aa78f08b3579.jpg?width=199&height=298",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/635/316/1560946675-4c2ab8fa7da06becec1a48462887aa78f08b3579.jpg{?width,height}"
+                    },
+                    "landscape": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/635/316/1560946673-56983e29ffa4d04ad2a39b5959320a99ab279145.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/635/316/1560946673-56983e29ffa4d04ad2a39b5959320a99ab279145.jpg{?width,height}"
+                    },
+                    "packshot": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/634/840/1560946674-a4527b7efa02ea0fac8ce0f543128cae9b22cc50.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/634/840/1560946674-a4527b7efa02ea0fac8ce0f543128cae9b22cc50.jpg{?width,height}"
+                    },
+                    "hero169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/635/316/1560946673-56983e29ffa4d04ad2a39b5959320a99ab279145.jpg{?width,height}"
+                    },
+                    "coverart23": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/635/316/1560946675-4c2ab8fa7da06becec1a48462887aa78f08b3579.jpg{?width,height}"
+                    },
+                    "coverart169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/634/840/1560946674-a4527b7efa02ea0fac8ce0f543128cae9b22cc50.jpg{?width,height}"
+                    }
+                  },
+                  "originalTitle": "An Unfinished Life",
+                  "people": {
+                    "actors": [
+                      "Jennifer Lopez",
+                      "Morgan Freeman",
+                      "Josh Lucas",
+                      "Damian Lewis"
+                    ],
+                    "directors": [
+                      "Lasse Hallström"
+                    ]
+                  },
+                  "production": {
+                    "country": "Tyskland, USA",
+                    "year": 2005
+                  },
+                  "parentalRating": "12",
+                  "imdb": {
+                    "id": "tt0350261",
+                    "rating": "7.0",
+                    "votes": "27 738",
+                    "url": "http://www.imdb.com/title/tt0350261?ref_ext_viaplay"
+                  },
+                  "synopsis": "Efter en tragisk bilolycka som kostade hennes man livet, försöker den unga Jean att få ordning på sitt liv igen.",
+                  "title": "En dag i livet"
+                },
+                "user": {
+                  "starred": false
+                },
+                "system": {
+                  "availability": {
+                    "start": "2019-08-18T22:00:00.000Z",
+                    "end": "2020-06-30T21:59:00.000Z",
+                    "planInfo": {
+                      "isRental": false,
+                      "isPurchase": false
+                    },
+                    "svod": {
+                      "start": "2019-08-18T22:00:00.000Z",
+                      "end": "2020-06-30T21:59:00.000Z",
+                      "planInfo": {
+                        "isRental": false,
+                        "isPurchase": false
+                      }
+                    }
+                  },
+                  "flags": [
+                    "hd",
+                    "availableInHd"
+                  ],
+                  "guid": "S48430",
+                  "productKey": "S48430",
+                  "isKids": false
+                },
+                "_links": {
+                  "self": {
+                    "title": "En dag i livet",
+                    "href": "https://content.viaplay.se/pc-se/film/en-dag-i-livet-2005?partial=true"
+                  },
+                  "viaplay:page": {
+                    "title": "En dag i livet",
+                    "href": "https://content.viaplay.se/pc-se/film/en-dag-i-livet-2005"
+                  },
+                  "viaplay:templatedPage": {
+                    "title": "En dag i livet",
+                    "href": "https://content.viaplay.se/{deviceKey}/film/en-dag-i-livet-2005"
+                  },
+                  "viaplay:genres": [
+                    {
+                      "title": "Drama",
+                      "tagId": "98856440",
+                      "href": "https://content.viaplay.se/pc-se/film/drama"
+                    },
+                    {
+                      "title": "Romantik",
+                      "tagId": "99368206",
+                      "href": "https://content.viaplay.se/pc-se/film/romantik"
+                    }
+                  ],
+                  "viaplay:peopleSearch": {
+                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                    "templated": true
+                  },
+                  "viaplay:stream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,availabilityContext,cmaf,cse}&deviceKey=pc-se&guid=S48430&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fen-dag-i-livet-2005%3Fpartial%3Dtrue&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                    "templated": true
+                  },
+                  "viaplay:templatedStream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey,availabilityContext,cmaf,cse}&guid=S48430&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fen-dag-i-livet-2005%3Fpartial%3Dtrue&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Ffilm%2Fen-dag-i-livet-2005%3Fpartial%3Dtrue&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                    "templated": true
+                  }
+                },
+                "notice": {
+                  "message": "User must login to view content",
+                  "code": 1002,
+                  "_links": {
+                    "curies": [
+                      {
+                        "name": "viaplay",
+                        "href": "http://docs.viaplay.tv/rel/{rel}",
+                        "templated": true
+                      }
+                    ],
+                    "viaplay:accountPurchasePackage": {
+                      "href": "/package?recommended=viaplay",
+                      "templated": false,
+                      "redirect": false
+                    }
+                  }
+                }
+              },
+              {
+                "type": "movie",
+                "publicPath": "stay-cool-2009",
+                "content": {
+                  "duration": {
+                    "milliseconds": 5346105,
+                    "readable": "1h 29min"
+                  },
+                  "images": {
+                    "boxart": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/782/108/S24130_cover_GE-1442592307773.jpg?width=199&height=298",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/782/108/S24130_cover_GE-1442592307773.jpg{?width,height}"
+                    },
+                    "landscape": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/782/108/S24130_landscape_GE-1442592307773.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/782/108/S24130_landscape_GE-1442592307773.jpg{?width,height}"
+                    },
+                    "packshot": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/782/108/S24130_packshot_GE-1442592307773.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/782/108/S24130_packshot_GE-1442592307773.jpg{?width,height}"
+                    },
+                    "hero169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/782/108/S24130_landscape_GE-1442592307773.jpg{?width,height}"
+                    },
+                    "coverart23": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/782/108/S24130_cover_GE-1442592307773.jpg{?width,height}"
+                    },
+                    "coverart169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/782/108/S24130_packshot_GE-1442592307773.jpg{?width,height}"
+                    }
+                  },
+                  "language": {
+                    "subtitles": [
+                      {
+                        "languageCode": "fi"
+                      },
+                      {
+                        "languageCode": "sv"
+                      },
+                      {
+                        "languageCode": "da"
+                      }
+                    ]
+                  },
+                  "people": {
+                    "actors": [
+                      "Ryder Winona",
+                      "Polish Mark",
+                      "Duff Hilary",
+                      "Chase Chevy",
+                      "St. Clair Jessica"
+                    ],
+                    "directors": [
+                      "Michael Polish"
+                    ]
+                  },
+                  "production": {
+                    "country": "USA",
+                    "year": 2009
+                  },
+                  "parentalRating": "15",
+                  "imdb": {
+                    "id": "tt1235807",
+                    "rating": "5.0",
+                    "votes": "3 136",
+                    "url": "http://www.imdb.com/title/tt1235807?ref_ext_viaplay"
+                  },
+                  "synopsis": "Stay CoolFörfattaren Henry återvänder till sin hemstad för att arbeta som lärare. Han måste konfrontera sina känslor för sin gamla kärlek Scarlet, samt bemöta studenten Shastas spirande kärlek till honom.",
+                  "title": "Stay Cool"
+                },
+                "user": {
+                  "starred": false
+                },
+                "system": {
+                  "availability": {
+                    "start": "2010-12-06T23:00:00.000Z",
+                    "end": "2038-01-01T08:00:00.000Z",
+                    "planInfo": {
+                      "isRental": false,
+                      "isPurchase": false
+                    },
+                    "svod": {
+                      "start": "2010-12-06T23:00:00.000Z",
+                      "end": "2038-01-01T08:00:00.000Z",
+                      "planInfo": {
+                        "isRental": false,
+                        "isPurchase": false
+                      }
+                    }
+                  },
+                  "flags": [
+                    "hd",
+                    "availableInHd"
+                  ],
+                  "guid": "S24130",
+                  "productKey": "S24130",
+                  "isKids": false
+                },
+                "_links": {
+                  "self": {
+                    "title": "Stay Cool",
+                    "href": "https://content.viaplay.se/pc-se/film/stay-cool-2009?partial=true"
+                  },
+                  "viaplay:page": {
+                    "title": "Stay Cool",
+                    "href": "https://content.viaplay.se/pc-se/film/stay-cool-2009"
+                  },
+                  "viaplay:templatedPage": {
+                    "title": "Stay Cool",
+                    "href": "https://content.viaplay.se/{deviceKey}/film/stay-cool-2009"
+                  },
+                  "viaplay:genres": [
+                    {
+                      "title": "Drama",
+                      "tagId": "98856440",
+                      "href": "https://content.viaplay.se/pc-se/film/drama"
+                    },
+                    {
+                      "title": "Komedi",
+                      "tagId": "99368193",
+                      "href": "https://content.viaplay.se/pc-se/film/komedi"
+                    }
+                  ],
+                  "viaplay:peopleSearch": {
+                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                    "templated": true
+                  },
+                  "viaplay:stream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,availabilityContext,cmaf,cse}&deviceKey=pc-se&guid=S24130&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fstay-cool-2009%3Fpartial%3Dtrue&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                    "templated": true
+                  },
+                  "viaplay:templatedStream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey,availabilityContext,cmaf,cse}&guid=S24130&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fstay-cool-2009%3Fpartial%3Dtrue&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Ffilm%2Fstay-cool-2009%3Fpartial%3Dtrue&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                    "templated": true
+                  }
+                },
+                "notice": {
+                  "message": "User must login to view content",
+                  "code": 1002,
+                  "_links": {
+                    "curies": [
+                      {
+                        "name": "viaplay",
+                        "href": "http://docs.viaplay.tv/rel/{rel}",
+                        "templated": true
+                      }
+                    ],
+                    "viaplay:accountPurchasePackage": {
+                      "href": "/package?recommended=viaplay",
+                      "templated": false,
+                      "redirect": false
+                    }
+                  }
+                }
+              },
+              {
+                "type": "movie",
+                "publicPath": "the-squid-and-the-whale-2005",
+                "content": {
+                  "duration": {
+                    "milliseconds": 4650048,
+                    "readable": "1h 17min"
+                  },
+                  "images": {
+                    "boxart": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/421/528/1560929879-75dab372c3265cea4043d8a1e75728503d2fc4b6.jpg?width=199&height=298",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/421/528/1560929879-75dab372c3265cea4043d8a1e75728503d2fc4b6.jpg{?width,height}"
+                    },
+                    "landscape": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/421/28/1560929880-7b568f2aa49bd30e2e04bc291284fbc0eeb1a65a.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/421/28/1560929880-7b568f2aa49bd30e2e04bc291284fbc0eeb1a65a.jpg{?width,height}"
+                    },
+                    "packshot": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/421/28/1560929881-009017f8f321c4f3fbb6fc8089c83c75c93378e6.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/421/28/1560929881-009017f8f321c4f3fbb6fc8089c83c75c93378e6.jpg{?width,height}"
+                    },
+                    "hero169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/421/28/1560929880-7b568f2aa49bd30e2e04bc291284fbc0eeb1a65a.jpg{?width,height}"
+                    },
+                    "coverart23": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/421/528/1560929879-75dab372c3265cea4043d8a1e75728503d2fc4b6.jpg{?width,height}"
+                    },
+                    "coverart169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/421/28/1560929881-009017f8f321c4f3fbb6fc8089c83c75c93378e6.jpg{?width,height}"
+                    }
+                  },
+                  "language": {
+                    "subtitles": [
+                      {
+                        "languageCode": "fi"
+                      },
+                      {
+                        "languageCode": "sv"
+                      },
+                      {
+                        "languageCode": "no"
+                      },
+                      {
+                        "languageCode": "da"
+                      }
+                    ]
+                  },
+                  "people": {
+                    "actors": [
+                      "Jesse Eisenberg",
+                      "Anna Paquin",
+                      "Laura Linney",
+                      "Owen Kline",
+                      "William Baldwin"
+                    ],
+                    "directors": [
+                      "Noah Baumbach"
+                    ]
+                  },
+                  "production": {
+                    "country": "USA",
+                    "year": 2005
+                  },
+                  "parentalRating": "12",
+                  "imdb": {
+                    "id": "tt0367089",
+                    "rating": "7.3",
+                    "votes": "70 645",
+                    "url": "http://www.imdb.com/title/tt0367089?ref_ext_viaplay"
+                  },
+                  "synopsis": "En dysfunktionell familj med den själviske professorn Bernard och den prominenta författarinnan Joan splittras av otrohet och svartsjuka. Sönerna Walt och Frank väljer var sin sida i skilsmässan.",
+                  "title": "The Squid and the Whale"
+                },
+                "user": {
+                  "starred": false
+                },
+                "system": {
+                  "availability": {
+                    "start": "2019-08-05T22:00:00.000Z",
+                    "end": "2020-07-31T21:59:00.000Z",
+                    "planInfo": {
+                      "isRental": false,
+                      "isPurchase": false
+                    },
+                    "svod": {
+                      "start": "2019-08-05T22:00:00.000Z",
+                      "end": "2020-07-31T21:59:00.000Z",
+                      "planInfo": {
+                        "isRental": false,
+                        "isPurchase": false
+                      }
+                    }
+                  },
+                  "flags": [
+                    "hd",
+                    "availableInHd"
+                  ],
+                  "guid": "S00384",
+                  "productKey": "S00384",
+                  "isKids": false
+                },
+                "_links": {
+                  "self": {
+                    "title": "The Squid and the Whale",
+                    "href": "https://content.viaplay.se/pc-se/film/the-squid-and-the-whale-2005?partial=true"
+                  },
+                  "viaplay:page": {
+                    "title": "The Squid and the Whale",
+                    "href": "https://content.viaplay.se/pc-se/film/the-squid-and-the-whale-2005"
+                  },
+                  "viaplay:templatedPage": {
+                    "title": "The Squid and the Whale",
+                    "href": "https://content.viaplay.se/{deviceKey}/film/the-squid-and-the-whale-2005"
+                  },
+                  "viaplay:genres": [
+                    {
+                      "title": "Drama",
+                      "tagId": "98856440",
+                      "href": "https://content.viaplay.se/pc-se/film/drama"
+                    },
+                    {
+                      "title": "Komedi",
+                      "tagId": "99368193",
+                      "href": "https://content.viaplay.se/pc-se/film/komedi"
+                    }
+                  ],
+                  "viaplay:peopleSearch": {
+                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                    "templated": true
+                  },
+                  "viaplay:stream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,availabilityContext,cmaf,cse}&deviceKey=pc-se&guid=S00384&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fthe-squid-and-the-whale-2005%3Fpartial%3Dtrue&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                    "templated": true
+                  },
+                  "viaplay:templatedStream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey,availabilityContext,cmaf,cse}&guid=S00384&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fthe-squid-and-the-whale-2005%3Fpartial%3Dtrue&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Ffilm%2Fthe-squid-and-the-whale-2005%3Fpartial%3Dtrue&sectionPath=%2Ffilm&defaultAvailabilityContext=svod",
+                    "templated": true
+                  }
+                },
+                "notice": {
+                  "message": "User must login to view content",
+                  "code": 1002,
+                  "_links": {
+                    "curies": [
+                      {
+                        "name": "viaplay",
+                        "href": "http://docs.viaplay.tv/rel/{rel}",
+                        "templated": true
+                      }
+                    ],
+                    "viaplay:accountPurchasePackage": {
+                      "href": "/package?recommended=viaplay",
+                      "templated": false,
+                      "redirect": false
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "_links": {
+            "self": {
+              "href": "https://content.viaplay.se/pc-se/film/gifted-2017?blockId=a8abed79-78fe-4189-8507-ebba3d6134e7&partial=1&pageNumber=1"
+            }
+          }
+        },
+        {
+          "ablocator": "8540e6fb-3a3b-41f5-a019-2872114e5ec5",
+          "id": "8540e6fb-3a3b-41f5-a019-2872114e5ec5",
+          "type": "list",
+          "client": {
+            "module": "collection",
+            "template": "collection",
+            "styles": "landscape list carousel"
+          },
+          "styles": [
+            "landscape",
+            "list",
+            "carousel"
+          ],
+          "title": "Liknande serier",
+          "totalProductCount": 10,
+          "currentPage": 1,
+          "pageCount": 1,
+          "productsPerPage": 10,
+          "_embedded": {
+            "viaplay:products": [
+              {
+                "type": "series",
+                "publicPath": "night-shift-the",
+                "content": {
+                  "images": {
+                    "boxart": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/959/808/1507556450-b6172467c51b5a057a6e26e0dc360dc6218d495b.jpg?width=199&height=298",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/959/808/1507556450-b6172467c51b5a057a6e26e0dc360dc6218d495b.jpg{?width,height}"
+                    },
+                    "landscape": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/70/184/NightShift_landscape_GE.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/70/184/NightShift_landscape_GE.jpg{?width,height}"
+                    },
+                    "hero169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/959/808/1500296707-9317776a7e0433827ae1133e7f21efd14b9efe63.jpg{?width,height}"
+                    },
+                    "coverart23": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/959/808/1507556450-b6172467c51b5a057a6e26e0dc360dc6218d495b.jpg{?width,height}"
+                    },
+                    "coverart169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/70/184/NightShift_landscape_GE.jpg{?width,height}"
+                    }
+                  },
+                  "originalTitle": "Night Shift, The",
+                  "people": {},
+                  "parentalRating": "12",
+                  "series": {
+                    "title": "The Night Shift",
+                    "synopsis": "Träffa läkarna på nattskiftet på San Antonio Hospital. Några av läkarna har återvänt hem efter tjänstgöring inom militären och med sig i bagaget har de saker som inte är så lätta att skaka av sig.",
+                    "seasons": 4,
+                    "seriesGuid": "series-night-shift-the"
+                  },
+                  "imdb": {
+                    "id": "tt2477230",
+                    "rating": "7.4",
+                    "votes": "10 024",
+                    "url": "http://www.imdb.com/title/tt2477230?ref_ext_viaplay"
+                  },
+                  "production": {
+                    "year": 2014
+                  }
+                },
+                "user": {
+                  "starred": false
+                },
+                "system": {
+                  "availability": {
+                    "start": "2019-09-30T22:00:00.000Z",
+                    "end": "2020-09-30T21:59:00.000Z",
+                    "planInfo": {
+                      "isRental": false,
+                      "isPurchase": false
+                    },
+                    "svod": {
+                      "start": "2019-09-30T22:00:00.000Z",
+                      "end": "2020-09-30T21:59:00.000Z",
+                      "planInfo": {
+                        "isRental": false,
+                        "isPurchase": false
+                      }
+                    }
+                  },
+                  "flags": [
+                    "hd",
+                    "availableInHd"
+                  ],
+                  "guid": "series-night-shift-the",
+                  "isKids": false
+                },
+                "_links": {
+                  "self": {
+                    "title": "The Night Shift",
+                    "href": "https://content.viaplay.se/pc-se/serier/night-shift-the?partial=true"
+                  },
+                  "viaplay:page": {
+                    "title": "The Night Shift",
+                    "href": "https://content.viaplay.se/pc-se/serier/night-shift-the"
+                  },
+                  "viaplay:templatedPage": {
+                    "title": "The Night Shift",
+                    "href": "https://content.viaplay.se/{deviceKey}/serier/night-shift-the"
+                  },
+                  "viaplay:genres": [
+                    {
+                      "title": "Drama",
+                      "tagId": "98856440",
+                      "href": "https://content.viaplay.se/pc-se/serier/drama"
+                    },
+                    {
+                      "title": "Romantik",
+                      "tagId": "99368206",
+                      "href": "https://content.viaplay.se/pc-se/store/romantik"
+                    }
+                  ],
+                  "viaplay:peopleSearch": {
+                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                    "templated": true
+                  },
+                  "viaplay:stream": {
+                    "title": "The Night Shift",
+                    "href": "https://content.viaplay.se/pc-se/serier/night-shift-the?partial=true"
+                  },
+                  "viaplay:templatedStream": {
+                    "title": "The Night Shift",
+                    "href": "https://content.viaplay.se/{deviceKey}/serier/night-shift-the?partial=true"
+                  }
+                },
+                "notice": {
+                  "message": "User must login to view content",
+                  "code": 1002,
+                  "_links": {
+                    "curies": [
+                      {
+                        "name": "viaplay",
+                        "href": "http://docs.viaplay.tv/rel/{rel}",
+                        "templated": true
+                      }
+                    ],
+                    "viaplay:accountPurchasePackage": {
+                      "href": "/package?recommended=viaplay",
+                      "templated": false,
+                      "redirect": false
+                    }
+                  }
+                }
+              },
+              {
+                "type": "series",
+                "publicPath": "new-amsterdam",
+                "content": {
+                  "images": {
+                    "boxart": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/565/932/1566829096-fb9773715da30ed501e16c9945ae6f77e3a877cd.jpg?width=199&height=298",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/565/932/1566829096-fb9773715da30ed501e16c9945ae6f77e3a877cd.jpg{?width,height}"
+                    },
+                    "landscape": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/565/932/1566829096-95dc1349e40071509c0a6adf8d4f26dd61ecc0b9.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/565/932/1566829096-95dc1349e40071509c0a6adf8d4f26dd61ecc0b9.jpg{?width,height}"
+                    },
+                    "hero169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/308/356/1537345188-546ba47e2288b9993ef1c2af64a8c5bdc652f5fe.jpg{?width,height}"
+                    },
+                    "coverart23": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/565/932/1566829096-fb9773715da30ed501e16c9945ae6f77e3a877cd.jpg{?width,height}"
+                    },
+                    "coverart169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/565/932/1566829096-95dc1349e40071509c0a6adf8d4f26dd61ecc0b9.jpg{?width,height}"
+                    }
+                  },
+                  "people": {
+                    "actors": [
+                      "Ryan Eggold",
+                      "Janet Montgomery",
+                      "Freema Agyeman",
+                      "Jocko Sims",
+                      "Tyler Labine",
+                      "Anupam Kher"
+                    ],
+                    "creators": [
+                      "David Schulner"
+                    ]
+                  },
+                  "parentalRating": "15",
+                  "series": {
+                    "title": "New Amsterdam",
+                    "synopsis": "Max Goodwin är medicinsk chef på det anrika sjukhuset New Amsterdam och han är fast besluten: Det försummade sjukhuset ska reformeras, patienterna ska få exceptionellt bra vård - vad som än krävs.",
+                    "availabilityInfo": "onsdagar 20.00",
+                    "seasons": 2,
+                    "seriesGuid": "series-new-amsterdam"
+                  },
+                  "imdb": {
+                    "id": "tt7817340",
+                    "rating": "8.1",
+                    "votes": "11 762",
+                    "url": "http://www.imdb.com/title/tt7817340?ref_ext_viaplay"
+                  },
+                  "production": {
+                    "year": 2018
+                  }
+                },
+                "user": {
+                  "starred": false
+                },
+                "system": {
+                  "availability": {
+                    "start": "2019-10-20T22:00:00.000Z",
+                    "end": "2020-09-25T21:59:00.000Z",
+                    "planInfo": {
+                      "isRental": false,
+                      "isPurchase": false
+                    },
+                    "svod": {
+                      "start": "2019-10-20T22:00:00.000Z",
+                      "end": "2020-09-25T21:59:00.000Z",
+                      "planInfo": {
+                        "isRental": false,
+                        "isPurchase": false
+                      }
+                    }
+                  },
+                  "flags": [
+                    "hd",
+                    "availableInHd"
+                  ],
+                  "guid": "series-new-amsterdam",
+                  "isKids": false
+                },
+                "_links": {
+                  "self": {
+                    "title": "New Amsterdam",
+                    "href": "https://content.viaplay.se/pc-se/serier/new-amsterdam?partial=true"
+                  },
+                  "viaplay:page": {
+                    "title": "New Amsterdam",
+                    "href": "https://content.viaplay.se/pc-se/serier/new-amsterdam"
+                  },
+                  "viaplay:templatedPage": {
+                    "title": "New Amsterdam",
+                    "href": "https://content.viaplay.se/{deviceKey}/serier/new-amsterdam"
+                  },
+                  "viaplay:genres": [
+                    {
+                      "title": "Drama",
+                      "tagId": "98856440",
+                      "href": "https://content.viaplay.se/pc-se/serier/drama"
+                    }
+                  ],
+                  "viaplay:peopleSearch": {
+                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                    "templated": true
+                  },
+                  "viaplay:stream": {
+                    "title": "New Amsterdam",
+                    "href": "https://content.viaplay.se/pc-se/serier/new-amsterdam?partial=true"
+                  },
+                  "viaplay:templatedStream": {
+                    "title": "New Amsterdam",
+                    "href": "https://content.viaplay.se/{deviceKey}/serier/new-amsterdam?partial=true"
+                  }
+                },
+                "notice": {
+                  "message": "User must login to view content",
+                  "code": 1002,
+                  "_links": {
+                    "curies": [
+                      {
+                        "name": "viaplay",
+                        "href": "http://docs.viaplay.tv/rel/{rel}",
+                        "templated": true
+                      }
+                    ],
+                    "viaplay:accountPurchasePackage": {
+                      "href": "/package?recommended=viaplay",
+                      "templated": false,
+                      "redirect": false
+                    }
+                  }
+                }
+              },
+              {
+                "type": "series",
+                "publicPath": "angel",
+                "content": {
+                  "images": {
+                    "boxart": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/675/760/1526299845-ae8a5b893b49f7115a96952a55d2d7ce49363d52.jpg?width=199&height=298",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/675/760/1526299845-ae8a5b893b49f7115a96952a55d2d7ce49363d52.jpg{?width,height}"
+                    },
+                    "landscape": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/675/760/1526299847-61d4c2cea7a9c3a20c5e183f912886e990125d2b.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/675/760/1526299847-61d4c2cea7a9c3a20c5e183f912886e990125d2b.jpg{?width,height}"
+                    },
+                    "hero169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/675/760/1526299846-470be42efa9c16134fa9a7eae41de46d88a9d50a.jpg{?width,height}"
+                    },
+                    "coverart23": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/675/760/1526299845-ae8a5b893b49f7115a96952a55d2d7ce49363d52.jpg{?width,height}"
+                    },
+                    "coverart169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/675/760/1526299847-61d4c2cea7a9c3a20c5e183f912886e990125d2b.jpg{?width,height}"
+                    }
+                  },
+                  "people": {
+                    "actors": [
+                      "David Boreanaz",
+                      "Alexis Denisof",
+                      "J. August Richards",
+                      "Charisma Carpenter",
+                      "Andy Hallett",
+                      "Amy Acker"
+                    ],
+                    "creators": [
+                      "David Greenwalt",
+                      "Joss Whedon"
+                    ]
+                  },
+                  "parentalRating": "15",
+                  "series": {
+                    "title": "Angel",
+                    "synopsis": "Vampyren Angel flyttar till Los Angeles, där hjälper han människor som besitter övernaturliga krafter. Samtidigt sonar han för sina egna synder.",
+                    "seasons": 5,
+                    "seriesGuid": "series-angel"
+                  },
+                  "imdb": {
+                    "id": "tt0162065",
+                    "rating": "7.9",
+                    "votes": "60 777",
+                    "url": "http://www.imdb.com/title/tt0162065?ref_ext_viaplay"
+                  },
+                  "production": {
+                    "year": 1999
+                  }
+                },
+                "user": {
+                  "starred": false
+                },
+                "system": {
+                  "availability": {
+                    "start": "2018-05-31T22:00:00.000Z",
+                    "end": "2021-01-31T22:59:00.000Z",
+                    "planInfo": {
+                      "isRental": false,
+                      "isPurchase": false
+                    },
+                    "svod": {
+                      "start": "2018-05-31T22:00:00.000Z",
+                      "end": "2021-01-31T22:59:00.000Z",
+                      "planInfo": {
+                        "isRental": false,
+                        "isPurchase": false
+                      }
+                    }
+                  },
+                  "flags": [
+                    "hd",
+                    "availableInHd"
+                  ],
+                  "guid": "series-angel",
+                  "isKids": false
+                },
+                "_links": {
+                  "self": {
+                    "title": "Angel",
+                    "href": "https://content.viaplay.se/pc-se/serier/angel?partial=true"
+                  },
+                  "viaplay:page": {
+                    "title": "Angel",
+                    "href": "https://content.viaplay.se/pc-se/serier/angel"
+                  },
+                  "viaplay:templatedPage": {
+                    "title": "Angel",
+                    "href": "https://content.viaplay.se/{deviceKey}/serier/angel"
+                  },
+                  "viaplay:genres": [
+                    {
+                      "title": "Drama",
+                      "tagId": "98856440",
+                      "href": "https://content.viaplay.se/pc-se/serier/drama"
+                    },
+                    {
+                      "title": "Action",
+                      "tagId": "99879986",
+                      "href": "https://content.viaplay.se/pc-se/serier/action"
+                    }
+                  ],
+                  "viaplay:peopleSearch": {
+                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                    "templated": true
+                  },
+                  "viaplay:stream": {
+                    "title": "Angel",
+                    "href": "https://content.viaplay.se/pc-se/serier/angel?partial=true"
+                  },
+                  "viaplay:templatedStream": {
+                    "title": "Angel",
+                    "href": "https://content.viaplay.se/{deviceKey}/serier/angel?partial=true"
+                  }
+                },
+                "notice": {
+                  "message": "User must login to view content",
+                  "code": 1002,
+                  "_links": {
+                    "curies": [
+                      {
+                        "name": "viaplay",
+                        "href": "http://docs.viaplay.tv/rel/{rel}",
+                        "templated": true
+                      }
+                    ],
+                    "viaplay:accountPurchasePackage": {
+                      "href": "/package?recommended=viaplay",
+                      "templated": false,
+                      "redirect": false
+                    }
+                  }
+                }
+              },
+              {
+                "type": "series",
+                "publicPath": "legion",
+                "content": {
+                  "images": {
+                    "boxart": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/487/528/1554197056-11610aba2b039aefe96b2240d395dea290c0cf6e.jpg?width=199&height=298",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/487/528/1554197056-11610aba2b039aefe96b2240d395dea290c0cf6e.jpg{?width,height}"
+                    },
+                    "landscape": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/487/528/1554197057-6a4cf3d5a86a6c7fd2acae032115830cce2ec005.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/487/528/1554197057-6a4cf3d5a86a6c7fd2acae032115830cce2ec005.jpg{?width,height}"
+                    },
+                    "hero169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/384/272/1557217298-9c819886f7087c35b476fe756b753a9ce2952bcc.jpg{?width,height}"
+                    },
+                    "coverart23": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/487/528/1554197056-11610aba2b039aefe96b2240d395dea290c0cf6e.jpg{?width,height}"
+                    },
+                    "coverart169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/487/528/1554197057-6a4cf3d5a86a6c7fd2acae032115830cce2ec005.jpg{?width,height}"
+                    }
+                  },
+                  "people": {
+                    "actors": [
+                      "Dan Stevens",
+                      "Rachel Keller",
+                      "Aubrey Plaza",
+                      "Bill Irwin",
+                      "Jeremie Harris",
+                      "Amber Midthunder",
+                      "Hamish Linklater",
+                      "Jean Smart",
+                      "Navid Negahban"
+                    ],
+                    "creators": [
+                      "Noah Hawley"
+                    ]
+                  },
+                  "parentalRating": "15",
+                  "series": {
+                    "title": "Legion",
+                    "synopsis": "David Haller har behandlats för sin schizofreni hela livet. Men när han möter Syd konfronteras han med möjligheten att rösterna han hör är verkliga, och upptäcker speciella krafter.",
+                    "seasons": 2,
+                    "seriesGuid": "series-legion"
+                  },
+                  "imdb": {
+                    "id": "tt5114356",
+                    "rating": "8.3",
+                    "votes": "76 314",
+                    "url": "http://www.imdb.com/title/tt5114356?ref_ext_viaplay"
+                  },
+                  "production": {
+                    "year": 2017
+                  }
+                },
+                "user": {
+                  "starred": false
+                },
+                "system": {
+                  "availability": {
+                    "start": "2018-01-31T23:00:00.000Z",
+                    "end": "2021-01-31T22:59:00.000Z",
+                    "planInfo": {
+                      "isRental": false,
+                      "isPurchase": false
+                    },
+                    "svod": {
+                      "start": "2018-01-31T23:00:00.000Z",
+                      "end": "2021-01-31T22:59:00.000Z",
+                      "planInfo": {
+                        "isRental": false,
+                        "isPurchase": false
+                      }
+                    }
+                  },
+                  "flags": [
+                    "hd",
+                    "availableInHd"
+                  ],
+                  "guid": "series-legion",
+                  "isKids": false
+                },
+                "_links": {
+                  "self": {
+                    "title": "Legion",
+                    "href": "https://content.viaplay.se/pc-se/serier/legion?partial=true"
+                  },
+                  "viaplay:page": {
+                    "title": "Legion",
+                    "href": "https://content.viaplay.se/pc-se/serier/legion"
+                  },
+                  "viaplay:templatedPage": {
+                    "title": "Legion",
+                    "href": "https://content.viaplay.se/{deviceKey}/serier/legion"
+                  },
+                  "viaplay:genres": [
+                    {
+                      "title": "Drama",
+                      "tagId": "98856440",
+                      "href": "https://content.viaplay.se/pc-se/serier/drama"
+                    },
+                    {
+                      "title": "Science fiction",
+                      "tagId": "99368202",
+                      "href": "https://content.viaplay.se/pc-se/serier/science-fiction"
+                    }
+                  ],
+                  "viaplay:peopleSearch": {
+                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                    "templated": true
+                  },
+                  "viaplay:stream": {
+                    "title": "Legion",
+                    "href": "https://content.viaplay.se/pc-se/serier/legion?partial=true"
+                  },
+                  "viaplay:templatedStream": {
+                    "title": "Legion",
+                    "href": "https://content.viaplay.se/{deviceKey}/serier/legion?partial=true"
+                  }
+                },
+                "notice": {
+                  "message": "User must login to view content",
+                  "code": 1002,
+                  "_links": {
+                    "curies": [
+                      {
+                        "name": "viaplay",
+                        "href": "http://docs.viaplay.tv/rel/{rel}",
+                        "templated": true
+                      }
+                    ],
+                    "viaplay:accountPurchasePackage": {
+                      "href": "/package?recommended=viaplay",
+                      "templated": false,
+                      "redirect": false
+                    }
+                  }
+                }
+              },
+              {
+                "type": "series",
+                "publicPath": "alex",
+                "content": {
+                  "images": {
+                    "boxart": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/284/596/1555340381-e55deff412d2b8f41823e0e4e5a88bbaf13d3c6b.jpg?width=199&height=298",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/284/596/1555340381-e55deff412d2b8f41823e0e4e5a88bbaf13d3c6b.jpg{?width,height}"
+                    },
+                    "landscape": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/283/620/1555340382-597119f520214cae50809099faf1428956be938b.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/283/620/1555340382-597119f520214cae50809099faf1428956be938b.jpg{?width,height}"
+                    },
+                    "hero169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/283/620/1557401300-56874ece28e50477638dd8b5b3ad0fe1c71fa833.jpg{?width,height}"
+                    },
+                    "coverart23": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/284/596/1555340381-e55deff412d2b8f41823e0e4e5a88bbaf13d3c6b.jpg{?width,height}"
+                    },
+                    "coverart169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/283/620/1555340382-597119f520214cae50809099faf1428956be938b.jpg{?width,height}"
+                    }
+                  },
+                  "people": {
+                    "actors": [
+                      "Dragomir Mrsic",
+                      "Rakel Wärmländer",
+                      "Maximilian Alonso Mrsic",
+                      "Anja Lundqvist",
+                      "Stefan Gödicke",
+                      "Kardo Razzazi",
+                      "Magnus Sundberg",
+                      "Shadi Bahsoun",
+                      "Enver Ramirez"
+                    ],
+                    "directors": [
+                      "Alain Darborg",
+                      "Manuel Concha"
+                    ]
+                  },
+                  "parentalRating": "15",
+                  "series": {
+                    "title": "Alex",
+                    "synopsis": "Den hårde, men korrupte polisen Alex bestämmer sig för att ändra sitt sätt och bli ren. Frågan är vad det kommer kosta honom, och hur villig han är att betala priset för en ny start.",
+                    "seasons": 2,
+                    "seriesGuid": "series-alex"
+                  },
+                  "imdb": {
+                    "id": "tt6681686",
+                    "rating": "6.8",
+                    "votes": "598",
+                    "url": "http://www.imdb.com/title/tt6681686?ref_ext_viaplay"
+                  },
+                  "production": {
+                    "year": 2018
+                  }
+                },
+                "user": {
+                  "starred": false
+                },
+                "system": {
+                  "availability": {
+                    "start": "2017-11-02T23:00:00.000Z",
+                    "end": "2029-05-23T21:59:00.000Z",
+                    "planInfo": {
+                      "isRental": false,
+                      "isPurchase": false
+                    },
+                    "svod": {
+                      "start": "2017-11-02T23:00:00.000Z",
+                      "end": "2029-05-23T21:59:00.000Z",
+                      "planInfo": {
+                        "isRental": false,
+                        "isPurchase": false
+                      }
+                    }
+                  },
+                  "flags": [
+                    "hd",
+                    "availableInHd"
+                  ],
+                  "guid": "series-alex",
+                  "isKids": false
+                },
+                "_links": {
+                  "self": {
+                    "title": "Alex",
+                    "href": "https://content.viaplay.se/pc-se/serier/alex?partial=true"
+                  },
+                  "viaplay:page": {
+                    "title": "Alex",
+                    "href": "https://content.viaplay.se/pc-se/serier/alex"
+                  },
+                  "viaplay:templatedPage": {
+                    "title": "Alex",
+                    "href": "https://content.viaplay.se/{deviceKey}/serier/alex"
+                  },
+                  "viaplay:genres": [
+                    {
+                      "title": "Drama",
+                      "tagId": "98856440",
+                      "href": "https://content.viaplay.se/pc-se/serier/drama"
+                    },
+                    {
+                      "title": "Kriminaldrama",
+                      "tagId": "99368197",
+                      "href": "https://content.viaplay.se/pc-se/serier/kriminaldrama"
+                    }
+                  ],
+                  "viaplay:peopleSearch": {
+                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                    "templated": true
+                  },
+                  "viaplay:stream": {
+                    "title": "Alex",
+                    "href": "https://content.viaplay.se/pc-se/serier/alex?partial=true"
+                  },
+                  "viaplay:templatedStream": {
+                    "title": "Alex",
+                    "href": "https://content.viaplay.se/{deviceKey}/serier/alex?partial=true"
+                  },
+                  "viaplay:trailerStream": {
+                    "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey,availabilityContext,cmaf,cse}&guid=10-5240-54A1-0CB7-BFDE-F951-A449-R&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fgifted-2017&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Fbyguid%2F10-5240-54A1-0CB7-BFDE-F951-A449-R%3FparentProgramGuid%3Dseries-alex&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Fbyguid%2F10-5240-54A1-0CB7-BFDE-F951-A449-R%3FparentProgramGuid%3Dseries-alex&sectionPath=%2Fserier&defaultAvailabilityContext=svod",
+                    "templated": true
+                  }
+                },
+                "notice": {
+                  "message": "User must login to view content",
+                  "code": 1002,
+                  "_links": {
+                    "curies": [
+                      {
+                        "name": "viaplay",
+                        "href": "http://docs.viaplay.tv/rel/{rel}",
+                        "templated": true
+                      }
+                    ],
+                    "viaplay:accountPurchasePackage": {
+                      "href": "/package?recommended=viaplay",
+                      "templated": false,
+                      "redirect": false
+                    }
+                  }
+                }
+              },
+              {
+                "type": "series",
+                "publicPath": "rosewood",
+                "content": {
+                  "images": {
+                    "boxart": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/418/784/Rosewood_cover.jpg?width=199&height=298",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/418/784/Rosewood_cover.jpg{?width,height}"
+                    },
+                    "landscape": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/418/784/Rosewood_landscapeFOX.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/418/784/Rosewood_landscapeFOX.jpg{?width,height}"
+                    },
+                    "hero169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/418/784/Rosewood_hero_GE.jpg{?width,height}"
+                    },
+                    "coverart23": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/418/784/Rosewood_cover.jpg{?width,height}"
+                    },
+                    "coverart169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/418/784/Rosewood_landscapeFOX.jpg{?width,height}"
+                    }
+                  },
+                  "people": {},
+                  "parentalRating": "12",
+                  "series": {
+                    "title": "Rosewood",
+                    "synopsis": "Miamis främsta privata patolog går genom livet med en stor fånga dagen-mentalitet. Med förstklassig utrustning och starka instinkter hittar han hemligheter i människokroppar - som andra missar.",
+                    "seasons": 2,
+                    "seriesGuid": "series-rosewood"
+                  },
+                  "imdb": {
+                    "id": "tt4465472",
+                    "rating": "6.6",
+                    "votes": "6 521",
+                    "url": "http://www.imdb.com/title/tt4465472?ref_ext_viaplay"
+                  },
+                  "production": {
+                    "year": 2015
+                  }
+                },
+                "user": {
+                  "starred": false
+                },
+                "system": {
+                  "availability": {
+                    "start": "2017-02-01T00:00:00.000Z",
+                    "end": "2021-01-31T22:59:00.000Z",
+                    "planInfo": {
+                      "isRental": false,
+                      "isPurchase": false
+                    },
+                    "svod": {
+                      "start": "2017-02-01T00:00:00.000Z",
+                      "end": "2021-01-31T22:59:00.000Z",
+                      "planInfo": {
+                        "isRental": false,
+                        "isPurchase": false
+                      }
+                    }
+                  },
+                  "flags": [],
+                  "guid": "series-rosewood",
+                  "isKids": false
+                },
+                "_links": {
+                  "self": {
+                    "title": "Rosewood",
+                    "href": "https://content.viaplay.se/pc-se/serier/rosewood?partial=true"
+                  },
+                  "viaplay:page": {
+                    "title": "Rosewood",
+                    "href": "https://content.viaplay.se/pc-se/serier/rosewood"
+                  },
+                  "viaplay:templatedPage": {
+                    "title": "Rosewood",
+                    "href": "https://content.viaplay.se/{deviceKey}/serier/rosewood"
+                  },
+                  "viaplay:genres": [
+                    {
+                      "title": "Drama",
+                      "tagId": "98856440",
+                      "href": "https://content.viaplay.se/pc-se/serier/drama"
+                    },
+                    {
+                      "title": "Kriminaldrama",
+                      "tagId": "99368197",
+                      "href": "https://content.viaplay.se/pc-se/serier/kriminaldrama"
+                    }
+                  ],
+                  "viaplay:peopleSearch": {
+                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                    "templated": true
+                  },
+                  "viaplay:stream": {
+                    "title": "Rosewood",
+                    "href": "https://content.viaplay.se/pc-se/serier/rosewood?partial=true"
+                  },
+                  "viaplay:templatedStream": {
+                    "title": "Rosewood",
+                    "href": "https://content.viaplay.se/{deviceKey}/serier/rosewood?partial=true"
+                  }
+                },
+                "notice": {
+                  "message": "User must login to view content",
+                  "code": 1002,
+                  "_links": {
+                    "curies": [
+                      {
+                        "name": "viaplay",
+                        "href": "http://docs.viaplay.tv/rel/{rel}",
+                        "templated": true
+                      }
+                    ],
+                    "viaplay:accountPurchasePackage": {
+                      "href": "/package?recommended=viaplay",
+                      "templated": false,
+                      "redirect": false
+                    }
+                  }
+                }
+              },
+              {
+                "type": "series",
+                "publicPath": "maria-wern",
+                "content": {
+                  "images": {
+                    "boxart": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/364/424/MariaWern_Cover.jpg?width=199&height=298",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/364/424/MariaWern_Cover.jpg{?width,height}"
+                    },
+                    "landscape": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/678/476/1540306654-b240d826f2b3b2d04fe5258b55e68a82d56713b7.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/678/476/1540306654-b240d826f2b3b2d04fe5258b55e68a82d56713b7.jpg{?width,height}"
+                    },
+                    "hero169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/678/476/1540306668-a251a818d3655f1fbd87e892e50174368fa27a9e.jpg{?width,height}"
+                    },
+                    "coverart23": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/364/424/MariaWern_Cover.jpg{?width,height}"
+                    },
+                    "coverart169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/678/476/1540306654-b240d826f2b3b2d04fe5258b55e68a82d56713b7.jpg{?width,height}"
+                    }
+                  },
+                  "people": {},
+                  "parentalRating": "15",
+                  "series": {
+                    "title": "Maria Wern",
+                    "synopsis": "Anna Janssons romanfigur Maria Wern är en stressad småbarnsmamma som försöker få privatlivet att gå ihop med det krävande yrket som kriminalinspektör på semesterön Gotland.",
+                    "seasons": 5,
+                    "seriesGuid": "series-maria-wern"
+                  },
+                  "imdb": {
+                    "id": "tt1129398",
+                    "rating": "6.6",
+                    "votes": "778",
+                    "url": "http://www.imdb.com/title/tt1129398?ref_ext_viaplay"
+                  },
+                  "production": {
+                    "year": 2008
+                  }
+                },
+                "user": {
+                  "starred": false
+                },
+                "system": {
+                  "availability": {
+                    "start": "2018-10-25T22:00:00.000Z",
+                    "end": "2023-10-31T22:59:00.000Z",
+                    "planInfo": {
+                      "isRental": false,
+                      "isPurchase": false
+                    },
+                    "svod": {
+                      "start": "2018-10-25T22:00:00.000Z",
+                      "end": "2023-10-31T22:59:00.000Z",
+                      "planInfo": {
+                        "isRental": false,
+                        "isPurchase": false
+                      }
+                    }
+                  },
+                  "flags": [
+                    "hd",
+                    "availableInHd"
+                  ],
+                  "guid": "series-maria-wern",
+                  "isKids": false
+                },
+                "_links": {
+                  "self": {
+                    "title": "Maria Wern",
+                    "href": "https://content.viaplay.se/pc-se/serier/maria-wern?partial=true"
+                  },
+                  "viaplay:page": {
+                    "title": "Maria Wern",
+                    "href": "https://content.viaplay.se/pc-se/serier/maria-wern"
+                  },
+                  "viaplay:templatedPage": {
+                    "title": "Maria Wern",
+                    "href": "https://content.viaplay.se/{deviceKey}/serier/maria-wern"
+                  },
+                  "viaplay:genres": [
+                    {
+                      "title": "Drama",
+                      "tagId": "98856440",
+                      "href": "https://content.viaplay.se/pc-se/serier/drama"
+                    },
+                    {
+                      "title": "Kriminaldrama",
+                      "tagId": "99368197",
+                      "href": "https://content.viaplay.se/pc-se/serier/kriminaldrama"
+                    }
+                  ],
+                  "viaplay:peopleSearch": {
+                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                    "templated": true
+                  },
+                  "viaplay:stream": {
+                    "title": "Maria Wern",
+                    "href": "https://content.viaplay.se/pc-se/serier/maria-wern?partial=true"
+                  },
+                  "viaplay:templatedStream": {
+                    "title": "Maria Wern",
+                    "href": "https://content.viaplay.se/{deviceKey}/serier/maria-wern?partial=true"
+                  }
+                },
+                "notice": {
+                  "message": "User must login to view content",
+                  "code": 1002,
+                  "_links": {
+                    "curies": [
+                      {
+                        "name": "viaplay",
+                        "href": "http://docs.viaplay.tv/rel/{rel}",
+                        "templated": true
+                      }
+                    ],
+                    "viaplay:accountPurchasePackage": {
+                      "href": "/package?recommended=viaplay",
+                      "templated": false,
+                      "redirect": false
+                    }
+                  }
+                }
+              },
+              {
+                "type": "series",
+                "publicPath": "mad-men",
+                "content": {
+                  "images": {
+                    "boxart": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/710/136/madmen_cover.jpg?width=199&height=298",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/710/136/madmen_cover.jpg{?width,height}"
+                    },
+                    "landscape": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/710/136/madmen_landscape.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/710/136/madmen_landscape.jpg{?width,height}"
+                    },
+                    "hero169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/926/956/MadMen_hero.jpg{?width,height}"
+                    },
+                    "coverart23": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/710/136/madmen_cover.jpg{?width,height}"
+                    },
+                    "coverart169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/710/136/madmen_landscape.jpg{?width,height}"
+                    }
+                  },
+                  "people": {},
+                  "parentalRating": "12",
+                  "series": {
+                    "title": "Mad Men",
+                    "synopsis": "Se alla säsonger av den här omåttligt populära och prisbelönta serien! I 1960-talets New York arbetar den högt ansedda Don Draper med en reklamkampanj för Nixons presidentkampanj. Bakom hans framgångar döljer sig otrohet, personliga demoner och en hemlighet som följt honom ända sedan Koreakriget.",
+                    "seasons": 7,
+                    "seriesGuid": "series-mad-men"
+                  },
+                  "imdb": {
+                    "id": "tt0804503",
+                    "rating": "8.6",
+                    "votes": "186 662",
+                    "url": "http://www.imdb.com/title/tt0804503?ref_ext_viaplay"
+                  },
+                  "production": {
+                    "year": 2007
+                  }
+                },
+                "user": {
+                  "starred": false
+                },
+                "system": {
+                  "availability": {
+                    "start": "2017-04-09T22:00:00.000Z",
+                    "end": "2020-03-14T22:59:00.000Z",
+                    "planInfo": {
+                      "isRental": false,
+                      "isPurchase": false
+                    },
+                    "svod": {
+                      "start": "2017-04-09T22:00:00.000Z",
+                      "end": "2020-03-14T22:59:00.000Z",
+                      "planInfo": {
+                        "isRental": false,
+                        "isPurchase": false
+                      }
+                    }
+                  },
+                  "flags": [],
+                  "guid": "series-mad-men",
+                  "isKids": false
+                },
+                "_links": {
+                  "self": {
+                    "title": "Mad Men",
+                    "href": "https://content.viaplay.se/pc-se/serier/mad-men?partial=true"
+                  },
+                  "viaplay:page": {
+                    "title": "Mad Men",
+                    "href": "https://content.viaplay.se/pc-se/serier/mad-men"
+                  },
+                  "viaplay:templatedPage": {
+                    "title": "Mad Men",
+                    "href": "https://content.viaplay.se/{deviceKey}/serier/mad-men"
+                  },
+                  "viaplay:genres": [
+                    {
+                      "title": "Drama",
+                      "tagId": "98856440",
+                      "href": "https://content.viaplay.se/pc-se/serier/drama"
+                    }
+                  ],
+                  "viaplay:peopleSearch": {
+                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                    "templated": true
+                  },
+                  "viaplay:stream": {
+                    "title": "Mad Men",
+                    "href": "https://content.viaplay.se/pc-se/serier/mad-men?partial=true"
+                  },
+                  "viaplay:templatedStream": {
+                    "title": "Mad Men",
+                    "href": "https://content.viaplay.se/{deviceKey}/serier/mad-men?partial=true"
+                  }
+                },
+                "notice": {
+                  "message": "User must login to view content",
+                  "code": 1002,
+                  "_links": {
+                    "curies": [
+                      {
+                        "name": "viaplay",
+                        "href": "http://docs.viaplay.tv/rel/{rel}",
+                        "templated": true
+                      }
+                    ],
+                    "viaplay:accountPurchasePackage": {
+                      "href": "/package?recommended=viaplay",
+                      "templated": false,
+                      "redirect": false
+                    }
+                  }
+                }
+              },
+              {
+                "type": "series",
+                "publicPath": "damien",
+                "content": {
+                  "images": {
+                    "boxart": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/705/952/Damien_cover_GE.jpg?width=199&height=298",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/705/952/Damien_cover_GE.jpg{?width,height}"
+                    },
+                    "landscape": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/705/952/Damien_Landscape_GE.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/705/952/Damien_Landscape_GE.jpg{?width,height}"
+                    },
+                    "hero169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/705/952/Damien_hero_GE.jpg{?width,height}"
+                    },
+                    "coverart23": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/705/952/Damien_cover_GE.jpg{?width,height}"
+                    },
+                    "coverart169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/705/952/Damien_Landscape_GE.jpg{?width,height}"
+                    }
+                  },
+                  "people": {},
+                  "parentalRating": "12",
+                  "series": {
+                    "title": "Damien",
+                    "synopsis": "I serieuppföljaren till klassiska skräckfilmen Omen, följer vi den numera 30-åriga Damien Thorn. Efter att länge ha förträngt sitt förflutna, måste Damien handskas med sitt öde som djävulens son och uppdraget att föra död och förstörelse till världen. Från skaparna bakom The Walking Dead.",
+                    "seasons": 1,
+                    "seriesGuid": "series-damien"
+                  },
+                  "imdb": {
+                    "id": "tt4337944",
+                    "rating": "6.9",
+                    "votes": "6 986",
+                    "url": "http://www.imdb.com/title/tt4337944?ref_ext_viaplay"
+                  },
+                  "production": {
+                    "year": 2016
+                  }
+                },
+                "user": {
+                  "starred": false
+                },
+                "system": {
+                  "availability": {
+                    "start": "2017-05-01T00:00:00.000Z",
+                    "end": "2021-01-31T00:00:00.000Z",
+                    "planInfo": {
+                      "isRental": false,
+                      "isPurchase": false
+                    },
+                    "svod": {
+                      "start": "2017-05-01T00:00:00.000Z",
+                      "end": "2021-01-31T00:00:00.000Z",
+                      "planInfo": {
+                        "isRental": false,
+                        "isPurchase": false
+                      }
+                    }
+                  },
+                  "flags": [
+                    "hd",
+                    "availableInHd"
+                  ],
+                  "guid": "series-damien",
+                  "isKids": false
+                },
+                "_links": {
+                  "self": {
+                    "title": "Damien",
+                    "href": "https://content.viaplay.se/pc-se/serier/damien?partial=true"
+                  },
+                  "viaplay:page": {
+                    "title": "Damien",
+                    "href": "https://content.viaplay.se/pc-se/serier/damien"
+                  },
+                  "viaplay:templatedPage": {
+                    "title": "Damien",
+                    "href": "https://content.viaplay.se/{deviceKey}/serier/damien"
+                  },
+                  "viaplay:genres": [
+                    {
+                      "title": "Drama",
+                      "tagId": "98856440",
+                      "href": "https://content.viaplay.se/pc-se/serier/drama"
+                    },
+                    {
+                      "title": "Rysare",
+                      "tagId": "99368201",
+                      "href": "https://content.viaplay.se/pc-se/store/rysare"
+                    }
+                  ],
+                  "viaplay:peopleSearch": {
+                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                    "templated": true
+                  },
+                  "viaplay:stream": {
+                    "title": "Damien",
+                    "href": "https://content.viaplay.se/pc-se/serier/damien?partial=true"
+                  },
+                  "viaplay:templatedStream": {
+                    "title": "Damien",
+                    "href": "https://content.viaplay.se/{deviceKey}/serier/damien?partial=true"
+                  }
+                },
+                "notice": {
+                  "message": "User must login to view content",
+                  "code": 1002,
+                  "_links": {
+                    "curies": [
+                      {
+                        "name": "viaplay",
+                        "href": "http://docs.viaplay.tv/rel/{rel}",
+                        "templated": true
+                      }
+                    ],
+                    "viaplay:accountPurchasePackage": {
+                      "href": "/package?recommended=viaplay",
+                      "templated": false,
+                      "redirect": false
+                    }
+                  }
+                }
+              },
+              {
+                "type": "series",
+                "publicPath": "absentia",
+                "content": {
+                  "images": {
+                    "boxart": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/540/744/1552652563-0bb892847a7d67691f8f38b4e06c80fde62ec97b.jpg?width=199&height=298",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/540/744/1552652563-0bb892847a7d67691f8f38b4e06c80fde62ec97b.jpg{?width,height}"
+                    },
+                    "landscape": {
+                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/540/744/1552652562-2d9092946e6aeaca6a0607519d650e1c51f940cb.jpg?width=960&height=540",
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/540/744/1552652562-2d9092946e6aeaca6a0607519d650e1c51f940cb.jpg{?width,height}"
+                    },
+                    "hero169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/534/172/1557241432-ad19acf8937cdc69f406ef0f50fddc3d42dfbfbf.jpg{?width,height}"
+                    },
+                    "coverart23": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/540/744/1552652563-0bb892847a7d67691f8f38b4e06c80fde62ec97b.jpg{?width,height}"
+                    },
+                    "coverart169": {
+                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/540/744/1552652562-2d9092946e6aeaca6a0607519d650e1c51f940cb.jpg{?width,height}"
+                    }
+                  },
+                  "people": {
+                    "actors": [
+                      "Stana Katic",
+                      "Patrick Heusinger",
+                      "Cara Theobold",
+                      "Neil Jackson",
+                      "Paul Freeman",
+                      "Christopher Colquhoun",
+                      "Angel Bonanni",
+                      "Patrick McAuley"
+                    ],
+                    "creators": [
+                      "Gaia Violo",
+                      "Matthew Cirulnick"
+                    ]
+                  },
+                  "parentalRating": "12",
+                  "series": {
+                    "title": "Absentia",
+                    "synopsis": "Emily Byrne, en försvunnen och dödförklarad FBI-agent, hittas efter sex år vid liv men utan minne. Hon måste nu kämpa för att få tillbaka sin identitet, samtidigt som hon blir misstänkt för mord.",
+                    "seasons": 2,
+                    "seriesGuid": "series-absentia"
+                  },
+                  "imdb": {
+                    "id": "tt6794990",
+                    "rating": "7.3",
+                    "votes": "8 815",
+                    "url": "http://www.imdb.com/title/tt6794990?ref_ext_viaplay"
+                  },
+                  "production": {
+                    "year": 2017
+                  }
+                },
+                "user": {
+                  "starred": false
+                },
+                "system": {
+                  "availability": {
+                    "start": "2019-03-24T23:00:00.000Z",
+                    "end": "2023-03-30T21:59:00.000Z",
+                    "planInfo": {
+                      "isRental": false,
+                      "isPurchase": false
+                    },
+                    "svod": {
+                      "start": "2019-03-24T23:00:00.000Z",
+                      "end": "2023-03-30T21:59:00.000Z",
+                      "planInfo": {
+                        "isRental": false,
+                        "isPurchase": false
+                      }
+                    }
+                  },
+                  "flags": [
+                    "hd",
+                    "availableInHd"
+                  ],
+                  "guid": "series-absentia",
+                  "isKids": false
+                },
+                "_links": {
+                  "self": {
+                    "title": "Absentia",
+                    "href": "https://content.viaplay.se/pc-se/serier/absentia?partial=true"
+                  },
+                  "viaplay:page": {
+                    "title": "Absentia",
+                    "href": "https://content.viaplay.se/pc-se/serier/absentia"
+                  },
+                  "viaplay:templatedPage": {
+                    "title": "Absentia",
+                    "href": "https://content.viaplay.se/{deviceKey}/serier/absentia"
+                  },
+                  "viaplay:genres": [
+                    {
+                      "title": "Drama",
+                      "tagId": "98856440",
+                      "href": "https://content.viaplay.se/pc-se/serier/drama"
+                    },
+                    {
+                      "title": "Kriminaldrama",
+                      "tagId": "99368197",
+                      "href": "https://content.viaplay.se/pc-se/serier/kriminaldrama"
+                    }
+                  ],
+                  "viaplay:peopleSearch": {
+                    "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                    "templated": true
+                  },
+                  "viaplay:stream": {
+                    "title": "Absentia",
+                    "href": "https://content.viaplay.se/pc-se/serier/absentia?partial=true"
+                  },
+                  "viaplay:templatedStream": {
+                    "title": "Absentia",
+                    "href": "https://content.viaplay.se/{deviceKey}/serier/absentia?partial=true"
+                  }
+                },
+                "notice": {
+                  "message": "User must login to view content",
+                  "code": 1002,
+                  "_links": {
+                    "curies": [
+                      {
+                        "name": "viaplay",
+                        "href": "http://docs.viaplay.tv/rel/{rel}",
+                        "templated": true
+                      }
+                    ],
+                    "viaplay:accountPurchasePackage": {
+                      "href": "/package?recommended=viaplay",
+                      "templated": false,
+                      "redirect": false
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "_links": {
+            "self": {
+              "href": "https://content.viaplay.se/pc-se/film/gifted-2017?blockId=8540e6fb-3a3b-41f5-a019-2872114e5ec5&partial=1&pageNumber=1"
+            }
+          }
+        }
+      ]
+    },
+    "responseCode": {
+      "httpStatus": 200,
+      "statusCode": 200,
+      "code": 1
+    }
+  }

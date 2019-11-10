@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+
+  movie-trailers:
+    container_name: Movie-Trailer
+    build:
+      context: movie-trailers
+    volumes:
+      - ./movie-trailers:/app
+      - '/app/node_modules'
+    ports:
+      - '3000:3000'
