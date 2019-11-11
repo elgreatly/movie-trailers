@@ -13,7 +13,7 @@ This project to get trailers from IMDB for viafree movies
 3. install packages `npm install`
 
 ### run project 
-1. add your port andimdb api_key in config.json file (already exist test values)
+1. add `port` and imdb `api_key` in `config.json` file (already exist test values)
 2. `npm start`
 
 #### Run Test
