@@ -1,5 +1,7 @@
 # Movie Trailers
 
+This project to get trailers from IMDB for viafree movies 
+
 ## Run Using Docker Compose
 `docker-compose up -d`
 
@@ -11,7 +13,7 @@
 3. install packages `npm install`
 
 ### run project 
-1. add your port in config.json
+1. add your port andimdb api_key in config.json file (already exist test values)
 2. `npm start`
 
 #### Run Test
@@ -21,8 +23,6 @@
 `npm run lint`
 
 ### Example Get Request
-1. add port and imdb api_key in config.json file (already exist test values) 
-2. 
 ```
 http://localhost:3000/movie/trailer?movie-url=https://content.viaplay.se/pc-se/film/captain-marvel-2019
 ```
