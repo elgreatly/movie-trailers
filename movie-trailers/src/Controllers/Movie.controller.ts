@@ -4,7 +4,7 @@ import { StatusCode } from '../Constants/StatusCode.constant';
 import { TrailerResponse } from '../Models/Response/TrailerResponse';
 
 @JsonController('movie')
-export class RobotController {
+export class MovieController {
 
     @Get('/trailer')
     async getTrialers(@QueryParam('movie-url') movieURL: string): Promise<TrailerResponse> {
